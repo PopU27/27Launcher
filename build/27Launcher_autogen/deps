@@ -79,10 +79,14 @@
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindOpenSSL.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindZLIB.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake \
@@ -105,6 +109,19 @@
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake \
+	C:/Program\ Files/CMake/share/cmake-4.4/Modules/SelectLibraryConfigurations.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/CURLConfigVersion.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets-release.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindBrotli.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindLibidn2.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindLibpsl.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindLibssh2.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindNGHTTP2.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindNGHTTP3.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindNGTCP2.cmake \
+	E:/msys64/ucrt64/lib/cmake/CURL/FindZstd.cmake \
 	E:/msys64/ucrt64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	E:/msys64/ucrt64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	E:/msys64/ucrt64/lib/cmake/Qt6/Qt6Config.cmake \

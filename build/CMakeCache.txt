@@ -37,10 +37,8 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//Full path to the compiler used for language <LANG>. Set by CMake
-// during compiler detection on the first configure; users may
-// override on the command line to select a specific toolchain.
-CMAKE_CXX_COMPILER:FILEPATH=e:/msys64/ucrt64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=e:/msys64/ucrt64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -288,15 +286,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //The directory containing a CMake configuration file for CURL.
 CURL_DIR:PATH=E:/msys64/ucrt64/lib/cmake/CURL
-
-//Path to a file.
-CURL_INCLUDE_DIR:PATH=CURL_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-CURL_LIBRARY_DEBUG:FILEPATH=CURL_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-CURL_LIBRARY_RELEASE:FILEPATH=CURL_LIBRARY_RELEASE-NOTFOUND
 
 //Enable detecting CURL dependencies via CMake Config. Default:
 // OFF
@@ -601,12 +590,6 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_WARN_DEPRECATED:INTERNAL=ON
 //ADVANCED property for variable: CURL_DIR
 CURL_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_INCLUDE_DIR
-CURL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_LIBRARY_DEBUG
-CURL_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CURL_LIBRARY_RELEASE
-CURL_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding CURL
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake][ ][v8.22.0()]
 //Details about finding Threads
@@ -621,31 +604,6 @@ HAVE_STDATOMIC:INTERNAL=1
 LIB_EAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
 OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-PC_CURL_CFLAGS:INTERNAL=
-PC_CURL_CFLAGS_I:INTERNAL=
-PC_CURL_CFLAGS_OTHER:INTERNAL=
-PC_CURL_FOUND:INTERNAL=
-PC_CURL_INCLUDEDIR:INTERNAL=
-PC_CURL_LIBDIR:INTERNAL=
-PC_CURL_LIBS:INTERNAL=
-PC_CURL_LIBS_L:INTERNAL=
-PC_CURL_LIBS_OTHER:INTERNAL=
-PC_CURL_LIBS_PATHS:INTERNAL=
-PC_CURL_MODULE_NAME:INTERNAL=
-PC_CURL_PREFIX:INTERNAL=
-PC_CURL_STATIC_CFLAGS:INTERNAL=
-PC_CURL_STATIC_CFLAGS_I:INTERNAL=
-PC_CURL_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_CURL_STATIC_LIBDIR:INTERNAL=
-PC_CURL_STATIC_LIBS:INTERNAL=
-PC_CURL_STATIC_LIBS_L:INTERNAL=
-PC_CURL_STATIC_LIBS_OTHER:INTERNAL=
-PC_CURL_STATIC_LIBS_PATHS:INTERNAL=
-PC_CURL_VERSION:INTERNAL=
-PC_CURL_libcurl_INCLUDEDIR:INTERNAL=
-PC_CURL_libcurl_LIBDIR:INTERNAL=
-PC_CURL_libcurl_PREFIX:INTERNAL=
-PC_CURL_libcurl_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
@@ -1513,7 +1471,6 @@ __pkg_config_arguments__nghttp2:INTERNAL=libnghttp2
 __pkg_config_arguments__nghttp3:INTERNAL=libnghttp3
 __pkg_config_arguments__ngtcp2:INTERNAL=libngtcp2;libngtcp2_crypto_ossl
 __pkg_config_arguments__zstd:INTERNAL=libzstd
-__pkg_config_checked_PC_CURL:INTERNAL=1
 __pkg_config_checked__brotli:INTERNAL=1
 __pkg_config_checked__libidn2:INTERNAL=1
 __pkg_config_checked__libpsl:INTERNAL=1

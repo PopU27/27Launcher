@@ -1952,8 +1952,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri"
-      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri"
+      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1964,13 +1964,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri'
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2f091/fast
-        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2f091.dir\\build.make CMakeFiles/cmTC_2f091.dir/build
-        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri'
-        Building CXX object CMakeFiles/cmTC_2f091.dir/CMakeCXXCompilerABI.cpp.obj
-        e:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c8bac/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c8bac.dir\\build.make CMakeFiles/cmTC_c8bac.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1'
+        Building CXX object CMakeFiles/cmTC_c8bac.dir/CMakeCXXCompilerABI.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=e:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -1978,8 +1978,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\'
-         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2f091.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccpxKaRr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\'
+         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c8bac.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccLRPvTA.s
         GNU C++20 (Rev5, Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -2003,14 +2003,14 @@ events:
          E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed
         End of search list.
         Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\'
-         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccpxKaRr.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\'
+         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccLRPvTA.s
         GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;E:/msys64/ucrt64/bin/../lib/gcc/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;E:/msys64/ucrt64/bin/../lib/gcc/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_2f091.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2f091.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c8bac.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c8bac.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=e:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe
@@ -2021,16 +2021,16 @@ events:
         gcc version 16.1.0 (Rev5, Built by MSYS2 project) 
         COMPILER_PATH=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;E:/msys64/ucrt64/bin/../lib/gcc/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/;E:/msys64/ucrt64/bin/../lib/gcc/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/;E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f091.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2f091.'
-         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8bac.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c8bac.'
+         E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         collect2 version 16.1.0
-        E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
+        E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f091.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2f091.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2f091.dir/objects.a
-        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_2f091.dir/objects.a @CMakeFiles\\cmTC_2f091.dir\\objects1.rsp
-        e:\\msys64\\ucrt64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a -Wl,--no-whole-archive -o cmTC_2f091.exe -Wl,--out-implib,libcmTC_2f091.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8bac.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c8bac.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c8bac.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_c8bac.dir/objects.a @CMakeFiles\\cmTC_c8bac.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a -Wl,--no-whole-archive -o cmTC_c8bac.exe -Wl,--out-implib,libcmTC_c8bac.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1'
         
       exitCode: 0
   -
@@ -2069,13 +2069,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri']
+        ignore line: [Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_2f091/fast]
-        ignore line: [E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2f091.dir\\build.make CMakeFiles/cmTC_2f091.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-d8r7ri']
-        ignore line: [Building CXX object CMakeFiles/cmTC_2f091.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [e:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c8bac/fast]
+        ignore line: [E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c8bac.dir\\build.make CMakeFiles/cmTC_c8bac.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-39xfj1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c8bac.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [e:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=e:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2083,8 +2083,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.0 (Rev5  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\']
-        ignore line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_2f091.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccpxKaRr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\']
+        ignore line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/cc1plus.exe -quiet -v -iprefix E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_c8bac.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccLRPvTA.s]
         ignore line: [GNU C++20 (Rev5  Built by MSYS2 project) version 16.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2108,8 +2108,8 @@ events:
         ignore line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c17fb94a142b10fdb3ae88ea0e837cbf]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\']
-        ignore line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccpxKaRr.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\']
+        ignore line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccLRPvTA.s]
         ignore line: [GNU assembler version 2.46 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/]
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2120,9 +2120,9 @@ events:
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_2f091.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_2f091.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2f091.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c8bac.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c8bac.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c8bac.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=e:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe]
@@ -2140,13 +2140,13 @@ events:
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/]
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2f091.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_2f091.']
-        link line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8bac.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c8bac.']
+        link line: [ E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2168,7 +2168,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_2f091.exe] ==> ignore
+          arg [cmTC_c8bac.exe] ==> ignore
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o] ==> obj [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o]
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o] ==> obj [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o]
           arg [-LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0] ==> dir [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0]
@@ -2179,10 +2179,10 @@ events:
           arg [-LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..] ==> dir [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_2f091.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_c8bac.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_2f091.dll.a] ==> ignore
+          arg [libcmTC_c8bac.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2208,9 +2208,9 @@ events:
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o] ==> obj [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o]
           arg [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> obj [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         ignore line: [collect2 version 16.1.0]
-        link line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> linker [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe]
-        link line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> linker architecture flags [-m;i386pep]
-        ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\ccDCI60D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_2f091.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_2f091.dir/objects.a --no-whole-archive --out-implib libcmTC_2f091.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
+        link line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> linker [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe]
+        link line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o] ==> linker architecture flags [-m;i386pep]
+        ignore line: [E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/liblto_plugin.dll -plugin-opt=E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rodgo\\AppData\\Local\\Temp\\cchKBM3P.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_c8bac.exe E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/crt2.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtbegin.o -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0 -LE:/msys64/ucrt64/bin/../lib/gcc -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../x86_64-w64-mingw32/lib -LE:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c8bac.dir/objects.a --no-whole-archive --out-implib libcmTC_c8bac.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/../../../../lib/default-manifest.o E:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/16.1.0/crtend.o]
         linker tool for 'CXX': E:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe -m;i386pep
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -2256,8 +2256,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-zfa2kk"
-      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-zfa2kk"
+      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-6xcta7"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-6xcta7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2268,19 +2268,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-zfa2kk'
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-6xcta7'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e6c3a/fast
-        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e6c3a.dir\\build.make CMakeFiles/cmTC_e6c3a.dir/build
-        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-zfa2kk'
-        Building CXX object CMakeFiles/cmTC_e6c3a.dir/src.cxx.obj
-        e:\\msys64\\ucrt64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles\\cmTC_e6c3a.dir\\src.cxx.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zfa2kk\\src.cxx
-        Linking CXX executable cmTC_e6c3a.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e6c3a.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e6c3a.dir/objects.a
-        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e6c3a.dir/objects.a @CMakeFiles\\cmTC_e6c3a.dir\\objects1.rsp
-        e:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_e6c3a.dir/objects.a -Wl,--no-whole-archive -o cmTC_e6c3a.exe -Wl,--out-implib,libcmTC_e6c3a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e6c3a.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-zfa2kk'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6412a/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6412a.dir\\build.make CMakeFiles/cmTC_6412a.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-6xcta7'
+        Building CXX object CMakeFiles/cmTC_6412a.dir/src.cxx.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles\\cmTC_6412a.dir\\src.cxx.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6xcta7\\src.cxx
+        Linking CXX executable cmTC_6412a.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6412a.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6412a.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6412a.dir/objects.a @CMakeFiles\\cmTC_6412a.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_6412a.dir/objects.a -Wl,--no-whole-archive -o cmTC_6412a.exe -Wl,--out-implib,libcmTC_6412a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6412a.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-6xcta7'
         
       exitCode: 0
   -
@@ -2299,8 +2299,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-0mynzr"
-      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-0mynzr"
+      source: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-jfqfv7"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-jfqfv7"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2311,19 +2311,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-0mynzr'
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-jfqfv7'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_62e9e/fast
-        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_62e9e.dir\\build.make CMakeFiles/cmTC_62e9e.dir/build
-        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-0mynzr'
-        Building CXX object CMakeFiles/cmTC_62e9e.dir/src.cxx.obj
-        e:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles\\cmTC_62e9e.dir\\src.cxx.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mynzr\\src.cxx
-        Linking CXX executable cmTC_62e9e.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_62e9e.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_62e9e.dir/objects.a
-        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_62e9e.dir/objects.a @CMakeFiles\\cmTC_62e9e.dir\\objects1.rsp
-        e:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_62e9e.dir/objects.a -Wl,--no-whole-archive -o cmTC_62e9e.exe -Wl,--out-implib,libcmTC_62e9e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_62e9e.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-0mynzr'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3633e/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3633e.dir\\build.make CMakeFiles/cmTC_3633e.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-jfqfv7'
+        Building CXX object CMakeFiles/cmTC_3633e.dir/src.cxx.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles\\cmTC_3633e.dir\\src.cxx.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jfqfv7\\src.cxx
+        Linking CXX executable cmTC_3633e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3633e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3633e.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3633e.dir/objects.a @CMakeFiles\\cmTC_3633e.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_3633e.dir/objects.a -Wl,--no-whole-archive -o cmTC_3633e.exe -Wl,--out-implib,libcmTC_3633e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3633e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/CMakeScratch/TryCompile-jfqfv7'
         
       exitCode: 0
   -
@@ -4853,1461 +4853,6 @@ events:
         - "E:/msys64/ucrt64/lib/cmake/Qt6"
         - "E:/msys64/ucrt64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "E:/msys64/ucrt64/lib/cmake/Qt6/3rdparty/kwin"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:174 (find_package)"
-      - "CMakeLists.txt:14 (find_package)"
-    name: "CURL"
-    configs:
-      -
-        filename: "CURL.cps"
-        kind: "cps"
-      -
-        filename: "curl.cps"
-        kind: "cps"
-      -
-        filename: "CURLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "curl-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "optional"
-      quiet: true
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "CURL"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/ucrt64/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/msys64/usr/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/server/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/PlasticSCM5/client/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/wbem/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Windows/System32/OpenSSH/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/Crucial/Crucial Storage Executive/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/dotnet/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/HP/Common/HPDestPlgIn/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/HP/Common/HPDestPlgIn/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/Program Files/Git/cmd/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "E:/rodgo/Microsoft VS Code/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/cc65/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Users/rodgo/AppData/Local/GitHubDesktop/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/CMake/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/CURLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/curl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/lib/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/CURL.cps"
-        mode: "cps"
-        reason: "no_exist"
-      -
-        path: "C:/Program Files (x86)/share/cps/curl.cps"
-        mode: "cps"
-        reason: "no_exist"
-    found: null
-    search_context:
-      ENV{PATH}:
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\usr\\bin"
-        - "C:/Program Files/PlasticSCM5/server"
-        - "C:\\Program Files\\PlasticSCM5\\client"
-        - "C:/Program Files/Common Files/Oracle/Java/javapath"
-        - "C:/WINDOWS/system32"
-        - "C:/WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Crucial/Crucial Storage Executive"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/HP/Common/HPDestPlgIn/"
-        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
-        - "E:/Program Files/Git/cmd"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/rodgo/.dotnet/tools"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
-        - "C:/msys64/ucrt64/bin"
-        - "E:\\rodgo\\Microsoft VS Code\\bin"
-        - "C:/cc65/bin"
-        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
-        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "E:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/27Launcher"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:517 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:189 (find_package)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "program"
-    variable: "PKG_CONFIG_EXECUTABLE"
-    description: "pkg-config executable"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "pkg-config.bat"
-      - "pkg-config"
-      - "pkgconf"
-    candidate_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/sbin/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/sbin/"
-      - "C:/Program Files (x86)/27Launcher/"
-    searched_directories:
-      - "E:/msys64/ucrt64/bin/pkg-config.bat.com"
-      - "E:/msys64/ucrt64/bin/pkg-config.bat.exe"
-      - "E:/msys64/ucrt64/bin/pkg-config.bat"
-      - "E:/msys64/ucrt64/bin/pkg-config.com"
-    found: "E:/msys64/ucrt64/bin/pkg-config.exe"
-    search_context:
-      ENV{PATH}:
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\usr\\bin"
-        - "C:/Program Files/PlasticSCM5/server"
-        - "C:\\Program Files\\PlasticSCM5\\client"
-        - "C:/Program Files/Common Files/Oracle/Java/javapath"
-        - "C:/WINDOWS/system32"
-        - "C:/WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Crucial/Crucial Storage Executive"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/HP/Common/HPDestPlgIn/"
-        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
-        - "E:/Program Files/Git/cmd"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/rodgo/.dotnet/tools"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
-        - "C:/msys64/ucrt64/bin"
-        - "E:\\rodgo\\Microsoft VS Code\\bin"
-        - "C:/cc65/bin"
-        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
-        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "E:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/27Launcher"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:201 (find_path)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "path"
-    variable: "CURL_INCLUDE_DIR"
-    description: "Path to a file."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "curl/curl.h"
-    candidate_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/include/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/include/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/include/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/include/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/include/"
-      - "C:/Program Files (x86)/27Launcher/"
-    searched_directories:
-      - "E:/msys64/ucrt64/bin/curl/curl.h"
-      - "E:/msys64/usr/bin/curl/curl.h"
-      - "C:/Program Files/PlasticSCM5/server/curl/curl.h"
-      - "C:/Program Files/PlasticSCM5/client/curl/curl.h"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/curl/curl.h"
-      - "C:/Windows/System32/curl/curl.h"
-      - "C:/Windows/curl/curl.h"
-      - "C:/Windows/System32/wbem/curl/curl.h"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/curl/curl.h"
-      - "C:/Windows/System32/OpenSSH/curl/curl.h"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/curl/curl.h"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/curl/curl.h"
-      - "C:/Program Files/dotnet/curl/curl.h"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/curl/curl.h"
-      - "C:/Program Files/CMake/bin/curl/curl.h"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/curl/curl.h"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/curl/curl.h"
-      - "E:/Program Files/Git/cmd/curl/curl.h"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/curl/curl.h"
-      - "C:/Users/rodgo/.dotnet/tools/curl/curl.h"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/curl/curl.h"
-      - "C:/msys64/ucrt64/bin/curl/curl.h"
-      - "E:/rodgo/Microsoft VS Code/bin/curl/curl.h"
-      - "C:/cc65/bin/curl/curl.h"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/curl/curl.h"
-      - "E:/msys64/ucrt64/include/curl/curl.h"
-      - "E:/msys64/ucrt64/curl/curl.h"
-      - "C:/Program Files/include/curl/curl.h"
-      - "C:/Program Files/curl/curl.h"
-      - "C:/Program Files (x86)/include/curl/curl.h"
-      - "C:/Program Files (x86)/curl/curl.h"
-      - "C:/Program Files/CMake/include/curl/curl.h"
-      - "C:/Program Files/CMake/curl/curl.h"
-      - "C:/Program Files (x86)/27Launcher/include/curl/curl.h"
-      - "C:/Program Files (x86)/27Launcher/curl/curl.h"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\usr\\bin"
-        - "C:/Program Files/PlasticSCM5/server"
-        - "C:\\Program Files\\PlasticSCM5\\client"
-        - "C:/Program Files/Common Files/Oracle/Java/javapath"
-        - "C:/WINDOWS/system32"
-        - "C:/WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Crucial/Crucial Storage Executive"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/HP/Common/HPDestPlgIn/"
-        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
-        - "E:/Program Files/Git/cmd"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/rodgo/.dotnet/tools"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
-        - "C:/msys64/ucrt64/bin"
-        - "E:\\rodgo\\Microsoft VS Code\\bin"
-        - "C:/cc65/bin"
-        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
-        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "E:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/27Launcher"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:208 (find_library)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "library"
-    variable: "CURL_LIBRARY_RELEASE"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "curl"
-      - "curllib"
-      - "libcurl_imp"
-      - "curllib_static"
-      - "libcurl"
-      - "libcurl_a"
-    candidate_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "/bin/"
-    searched_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-      - "/bin/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\usr\\bin"
-        - "C:/Program Files/PlasticSCM5/server"
-        - "C:\\Program Files\\PlasticSCM5\\client"
-        - "C:/Program Files/Common Files/Oracle/Java/javapath"
-        - "C:/WINDOWS/system32"
-        - "C:/WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Crucial/Crucial Storage Executive"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/HP/Common/HPDestPlgIn/"
-        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
-        - "E:/Program Files/Git/cmd"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/rodgo/.dotnet/tools"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
-        - "C:/msys64/ucrt64/bin"
-        - "E:\\rodgo\\Microsoft VS Code\\bin"
-        - "C:/cc65/bin"
-        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
-        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "E:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/27Launcher/bin"
-        - "C:/Program Files/CMake/bin"
-        - "/bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:223 (find_library)"
-      - "CMakeLists.txt:14 (find_package)"
-    mode: "library"
-    variable: "CURL_LIBRARY_DEBUG"
-    description: "Path to a library."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "libcurl-d_imp"
-      - "libcurl-d"
-    candidate_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "/bin/"
-    searched_directories:
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/ucrt64/bin/"
-      - "E:/msys64/usr/bin/"
-      - "E:/msys64/usr/bin/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/server/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/PlasticSCM5/client/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/System32/"
-      - "C:/Windows/"
-      - "C:/Windows/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/wbem/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/OpenSSH/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/Crucial/Crucial Storage Executive/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/dotnet/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-      - "E:/Program Files/Git/cmd/"
-      - "E:/Program Files/Git/cmd/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/.dotnet/tools/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
-      - "C:/msys64/ucrt64/bin/"
-      - "C:/msys64/ucrt64/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "E:/rodgo/Microsoft VS Code/bin/"
-      - "C:/cc65/bin/"
-      - "C:/cc65/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/lib/"
-      - "E:/msys64/ucrt64/"
-      - "E:/msys64/ucrt64/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/lib/"
-      - "C:/Program Files/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/lib/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/lib/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/lib/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "C:/Program Files (x86)/27Launcher/bin/"
-      - "/bin/"
-      - "/bin/"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\ucrt64\\bin"
-        - "e:\\msys64\\usr\\bin"
-        - "C:/Program Files/PlasticSCM5/server"
-        - "C:\\Program Files\\PlasticSCM5\\client"
-        - "C:/Program Files/Common Files/Oracle/Java/javapath"
-        - "C:/WINDOWS/system32"
-        - "C:/WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\WINDOWS\\system32"
-        - "C:\\WINDOWS"
-        - "C:\\WINDOWS\\System32\\Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\WINDOWS\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:/Program Files/Crucial/Crucial Storage Executive"
-        - "C:\\Program Files\\dotnet\\"
-        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Program Files/HP/Common/HPDestPlgIn/"
-        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
-        - "E:/Program Files/Git/cmd"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:/Users/rodgo/.dotnet/tools"
-        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
-        - "C:/msys64/ucrt64/bin"
-        - "E:\\rodgo\\Microsoft VS Code\\bin"
-        - "C:/cc65/bin"
-        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
-        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
-        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "E:/msys64/ucrt64"
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/27Launcher"
-      CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/27Launcher/bin"
-        - "C:/Program Files/CMake/bin"
-        - "/bin"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
@@ -8996,6 +7541,121 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "E:/msys64/ucrt64/lib/cmake/CURL/FindBrotli.cmake:45 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake:93 (find_dependency)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:174 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config.bat"
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "E:/msys64/ucrt64/bin/"
+      - "E:/msys64/usr/bin/"
+      - "C:/Program Files/PlasticSCM5/server/"
+      - "C:/Program Files/PlasticSCM5/client/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/Crucial/Crucial Storage Executive/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/HP/Common/HPDestPlgIn/"
+      - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+      - "E:/Program Files/Git/cmd/"
+      - "C:/Users/rodgo/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/rodgo/.dotnet/tools/"
+      - "C:/Users/rodgo/AppData/Local/Muse Hub/lib/"
+      - "C:/msys64/ucrt64/bin/"
+      - "E:/rodgo/Microsoft VS Code/bin/"
+      - "C:/cc65/bin/"
+      - "C:/Users/rodgo/AppData/Local/GitHubDesktop/bin/"
+      - "E:/msys64/ucrt64/bin/"
+      - "E:/msys64/ucrt64/sbin/"
+      - "E:/msys64/ucrt64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/27Launcher/bin/"
+      - "C:/Program Files (x86)/27Launcher/sbin/"
+      - "C:/Program Files (x86)/27Launcher/"
+    searched_directories:
+      - "E:/msys64/ucrt64/bin/pkg-config.bat.com"
+      - "E:/msys64/ucrt64/bin/pkg-config.bat.exe"
+      - "E:/msys64/ucrt64/bin/pkg-config.bat"
+      - "E:/msys64/ucrt64/bin/pkg-config.com"
+    found: "E:/msys64/ucrt64/bin/pkg-config.exe"
+    search_context:
+      ENV{PATH}:
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\usr\\bin"
+        - "C:/Program Files/PlasticSCM5/server"
+        - "C:\\Program Files\\PlasticSCM5\\client"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:/WINDOWS/system32"
+        - "C:/WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "E:/Program Files/Git/cmd"
+        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/rodgo/.dotnet/tools"
+        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
+        - "C:/msys64/ucrt64/bin"
+        - "E:\\rodgo\\Microsoft VS Code\\bin"
+        - "C:/cc65/bin"
+        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
+        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "E:/msys64/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/27Launcher"
+  -
+    kind: "find-v1"
+    backtrace:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:761 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
@@ -9753,4 +8413,141 @@ events:
         - "C:/Program Files (x86)/27Launcher/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:174 (find_package)"
+      - "CMakeLists.txt:14 (find_package)"
+    name: "CURL"
+    configs:
+      -
+        filename: "CURL.cps"
+        kind: "cps"
+      -
+        filename: "curl.cps"
+        kind: "cps"
+      -
+        filename: "CURLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "curl-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "CURL"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/pkgRedirects/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/CURLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/curl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/lib/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/lib/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/share/cps/CURL.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/msys64/ucrt64/share/cps/curl.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake"
+      mode: "config"
+      version: "8.22.0"
+    search_context:
+      ENV{PATH}:
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\ucrt64\\bin"
+        - "e:\\msys64\\usr\\bin"
+        - "C:/Program Files/PlasticSCM5/server"
+        - "C:\\Program Files\\PlasticSCM5\\client"
+        - "C:/Program Files/Common Files/Oracle/Java/javapath"
+        - "C:/WINDOWS/system32"
+        - "C:/WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:/WINDOWS/System32/WindowsPowerShell/v1.0/"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:/Program Files/Crucial/Crucial Storage Executive"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Program Files/HP/Common/HPDestPlgIn/"
+        - "C:\\Program Files (x86)\\HP\\Common\\HPDestPlgIn\\"
+        - "E:/Program Files/Git/cmd"
+        - "C:\\Users\\rodgo\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/rodgo/.dotnet/tools"
+        - "C:\\Users\\rodgo\\AppData\\Local\\Muse Hub\\lib"
+        - "C:/msys64/ucrt64/bin"
+        - "E:\\rodgo\\Microsoft VS Code\\bin"
+        - "C:/cc65/bin"
+        - "C:\\Program Files\\HP\\Common\\HPDestPlgIn\\"
+        - "C:/Program Files (x86)/HP/Common/HPDestPlgIn/"
+        - "C:\\Users\\rodgo\\AppData\\Local\\GitHubDesktop\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/27Launcher"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "E:/msys64/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/27Launcher"
 ...
