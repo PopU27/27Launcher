@@ -1,0 +1,5 @@
+E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/27Launcher.dir
+E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/edit_cache.dir
+E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/rebuild_cache.dir
+E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/27Launcher_autogen_timestamp_deps.dir
+E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/27Launcher_autogen.dir
