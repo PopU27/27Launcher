@@ -35,9 +35,11 @@ add_subdirectory(11Zip)
 add_executable(27Launcher #WIN32 - include this before deploying
     src/main.cpp
     src/downloadLatestZip.cpp
+    src/getAppDataPath.cpp
 )
 
-target_include_directories(27Launcher PRIVATE 
+target_include_directories(27Launcher PRIVATE
+    
 )
 
 target_link_libraries(27Launcher PRIVATE

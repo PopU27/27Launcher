@@ -18,6 +18,12 @@
   "output": "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
 },
 {
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\getAppDataPath.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\getAppDataPath.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp",
+  "output": "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
+},
+{
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
   "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/accept_encoding.cpp",

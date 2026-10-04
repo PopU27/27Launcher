@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/rodgo/CodeProjects/27Launcher/build/27Launcher_autogen/mocs_compilation.cpp" "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj.d"
   "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp" "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj.d"
+  "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp" "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj.d"
   "E:/rodgo/CodeProjects/27Launcher/src/main.cpp" "CMakeFiles/27Launcher.dir/src/main.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/main.cpp.obj.d"
   )
 

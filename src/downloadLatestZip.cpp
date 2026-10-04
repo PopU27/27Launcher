@@ -1,18 +1,10 @@
 #include "downloadLatestZip.h"
+#include "getAppDataPath.h"
 
-std::string getAppDataPath() {
-    PWSTR rawPath = NULL;
-    if (SUCCEEDED(SHGetKnownFolderPath(FOLDERID_RoamingAppData, KF_FLAG_CREATE, NULL, &rawPath))) {
-        char strPath[MAX_PATH];
-        wcstombs_s(NULL, strPath, sizeof(strPath), rawPath, _TRUNCATE);
-        CoTaskMemFree(rawPath);
-        return std::string(strPath);
-    }
-    return "";
-}
 
 int downloadLatestZip(const std::string& apiUrl, const std::string& name)
 {   
+    // Makes get request to apiUrl
     std::cout << "Checking GitHub for the latest ZIP..." << std::endl;
     cpr::Response apiResponse = cpr::Get(
         cpr::Url{apiUrl},
@@ -30,6 +22,7 @@ int downloadLatestZip(const std::string& apiUrl, const std::string& name)
 
     std::string downloadUrl = "";
 
+    // Gets the url to download by parsing the json from the get
      try {
         auto json_array = nlohmann::json::parse(apiResponse.text);
         for (const auto& item : json_array) {
@@ -50,10 +43,12 @@ int downloadLatestZip(const std::string& apiUrl, const std::string& name)
         return 1;
     }
 
+    // By default the download url is raw.githubusercontent.com, but it needs media because of git LFS
     downloadUrl.replace(7, 26, "media.githubusercontent.com/media/");
 
     std::cout << "Found target file: " << name << std::endl;
 
+    // Makes sure the games folder exists, if not creates it
     std::filesystem::path localPath(name);
     if (localPath.has_parent_path()) {
         std::filesystem::create_directories(localPath.parent_path());

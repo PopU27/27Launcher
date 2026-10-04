@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
   "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj.d"
+  "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
+  "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj.d"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj.d"
   "27Launcher_autogen"

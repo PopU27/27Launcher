@@ -238,6 +238,8 @@
   CMakeFiles/4.4.0-rc2/CMakeSystem.cmake \
   E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp \
   E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h \
+  E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp \
+  E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h \
   E:/rodgo/CodeProjects/27Launcher/src/main.cpp \
   E:/rodgo/CodeProjects/27Launcher/src/main.h
 
@@ -717,5 +719,9 @@ CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake:
 CMakeFiles/4.4.0-rc2/CMakeSystem.cmake:
 
 E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp:
+
+E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp:
+
+E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h:
 
 E:/rodgo/CodeProjects/27Launcher/src/main.h:

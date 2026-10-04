@@ -345,6 +345,30 @@ src/downloadLatestZip.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.s
 .PHONY : src/downloadLatestZip.cpp.s
 
+src/getAppDataPath.obj: src/getAppDataPath.cpp.obj
+.PHONY : src/getAppDataPath.obj
+
+# target to build an object file
+src/getAppDataPath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj
+.PHONY : src/getAppDataPath.cpp.obj
+
+src/getAppDataPath.i: src/getAppDataPath.cpp.i
+.PHONY : src/getAppDataPath.i
+
+# target to preprocess a source file
+src/getAppDataPath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.i
+.PHONY : src/getAppDataPath.cpp.i
+
+src/getAppDataPath.s: src/getAppDataPath.cpp.s
+.PHONY : src/getAppDataPath.s
+
+# target to generate assembly for a file
+src/getAppDataPath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.s
+.PHONY : src/getAppDataPath.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -398,6 +422,9 @@ help:
 	@echo ... src/downloadLatestZip.obj
 	@echo ... src/downloadLatestZip.i
 	@echo ... src/downloadLatestZip.s
+	@echo ... src/getAppDataPath.obj
+	@echo ... src/getAppDataPath.i
+	@echo ... src/getAppDataPath.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
