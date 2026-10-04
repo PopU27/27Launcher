@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "27Launcher.pdb"
   "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
+  "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj.d"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj.d"
   "27Launcher_autogen"

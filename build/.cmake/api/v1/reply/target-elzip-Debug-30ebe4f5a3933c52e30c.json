@@ -1,0 +1,335 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "11Zip/libelzip.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"11Zip/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "minizip::@bc5dea30d15d4ef19065"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/elzip_autogen/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/11Zip/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/11Zip/include/elzip"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/11Zip/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "minizip::@bc5dea30d15d4ef19065"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "elzip_autogen::@4969fb39d5a0a549e73c"
+		},
+		{
+			"id" : "elzip_autogen_timestamp_deps::@4969fb39d5a0a549e73c"
+		}
+	],
+	"id" : "elzip::@4969fb39d5a0a549e73c",
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "minizip::@bc5dea30d15d4ef19065"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "minizip::@bc5dea30d15d4ef19065"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "stdc++fs"
+		}
+	],
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "minizip::@bc5dea30d15d4ef19065"
+		},
+		{
+			"backtrace" : 3,
+			"fragment" : "stdc++fs"
+		}
+	],
+	"name" : "elzip",
+	"nameOnDisk" : "libelzip.a",
+	"orderDependencies" : 
+	[
+		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "elzip_autogen::@4969fb39d5a0a549e73c"
+		},
+		{
+			"id" : "elzip_autogen_timestamp_deps::@4969fb39d5a0a549e73c"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "11Zip",
+		"source" : "11Zip"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files\\Generated",
+			"sourceIndexes" : 
+			[
+				0,
+				8
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/11Zip/elzip_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "11Zip/include/elzip/elzip.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "11Zip/include/elzip/fswrapper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "11Zip/include/elzip/unzipper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"path" : "11Zip/include/elzip/zipper.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "11Zip/src/elzip.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "11Zip/src/unzipper.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"backtraces" : 
+			[
+				1
+			],
+			"compileGroupIndex" : 0,
+			"path" : "11Zip/src/zipper.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"isGenerated" : true,
+			"path" : "build/11Zip/elzip_autogen/timestamp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"backtraces" : 
+			[
+				0
+			],
+			"isGenerated" : true,
+			"path" : "build/11Zip/elzip_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

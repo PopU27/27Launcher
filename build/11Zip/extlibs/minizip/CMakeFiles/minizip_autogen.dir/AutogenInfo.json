@@ -1,0 +1,286 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen",
+	"CMAKE_BINARY_DIR" : "E:/rodgo/CodeProjects/27Launcher/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/CMakeLists.txt",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckSymbolExists.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckFunctionExists.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckTypeSize.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFile.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FeatureSummary.cmake",
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/cmake/clone-repo.cmake",
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/cmake/FindZLIBNG.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FindZLIB.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake",
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_compat_shim.h.in",
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_compat_shim.h.in",
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/minizip.pc.cmakein",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CMakePackageConfigHelpers.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/WriteBasicConfigVersionFile.cmake",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+		"E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip-config.cmake.in"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/rodgo/CodeProjects/27Launcher",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "minizip_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz.h",
+			"MU",
+			"EWIEGA46WW/moc_mz.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_compat.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_compat.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_crypt.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_crypt.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_os.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_os.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_buf.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_buf.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_mem.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_mem.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_os.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_os.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_pkcrypt.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_pkcrypt.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_split.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_split.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_wzaes.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_wzaes.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_zlib.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_strm_zlib.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_zip.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip_rw.h",
+			"MU",
+			"EWIEGA46WW/moc_mz_zip_rw.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/unzip.h",
+			"MU",
+			"EJRQKI7XPS/moc_unzip.cpp",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/zip.h",
+			"MU",
+			"EJRQKI7XPS/moc_zip.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"HAVE_INTTYPES_H",
+		"HAVE_PKCRYPT",
+		"HAVE_STDINT_H",
+		"HAVE_WZAES",
+		"HAVE_ZLIB",
+		"ZLIB_COMPAT",
+		"_CRT_SECURE_NO_DEPRECATE",
+		"_LARGEFILE64_SOURCE",
+		"__USE_LARGEFILE64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip",
+		"E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+		"E:/msys64/ucrt64/include",
+		"E:/msys64/ucrt64/include/c++/16.1.0",
+		"E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32",
+		"E:/msys64/ucrt64/include/c++/16.1.0/backward",
+		"E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include",
+		"E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include-fixed"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"e:/msys64/ucrt64/bin/g++.exe",
+		"-std=gnu++20",
+		"-w",
+		"-dM",
+		"-E",
+		"C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/CMakeFiles/minizip_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "E:/msys64/ucrt64/share/qt6/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "E:/msys64/ucrt64/share/qt6/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 11,
+	"SETTINGS_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/CMakeFiles/minizip_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_compat.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_crypt.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_crypt_win32.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_os.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_buf.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_mem.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_os_win32.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_pkcrypt.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_split.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_wzaes.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_zlib.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip.c",
+			"MU",
+			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip_rw.c",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

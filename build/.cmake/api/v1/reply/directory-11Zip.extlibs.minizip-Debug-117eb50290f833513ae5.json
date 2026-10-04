@@ -1,0 +1,138 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"11Zip/extlibs/minizip/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 727,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 749,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 754,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 757,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"11Zip/extlibs/minizip/libminizip.a"
+			],
+			"targetId" : "minizip::@bc5dea30d15d4ef19065",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/minizip",
+			"exportName" : "minizip",
+			"exportTargets" : 
+			[
+				{
+					"id" : "minizip::@bc5dea30d15d4ef19065",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"11Zip/extlibs/minizip/CMakeFiles/Export/4fe77da0f4d2c94dd906efce3aa1c0aa/minizip.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/minizip",
+			"paths" : 
+			[
+				"build/11Zip/extlibs/minizip/minizip-config-version.cmake",
+				"build/11Zip/extlibs/minizip/minizip-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"11Zip/extlibs/minizip/mz.h",
+				"11Zip/extlibs/minizip/mz_os.h",
+				"11Zip/extlibs/minizip/mz_crypt.h",
+				"11Zip/extlibs/minizip/mz_strm.h",
+				"11Zip/extlibs/minizip/mz_strm_buf.h",
+				"11Zip/extlibs/minizip/mz_strm_mem.h",
+				"11Zip/extlibs/minizip/mz_strm_split.h",
+				"11Zip/extlibs/minizip/mz_strm_os.h",
+				"11Zip/extlibs/minizip/mz_zip.h",
+				"11Zip/extlibs/minizip/mz_zip_rw.h",
+				"11Zip/extlibs/minizip/mz_strm_zlib.h",
+				"11Zip/extlibs/minizip/mz_strm_pkcrypt.h",
+				"11Zip/extlibs/minizip/mz_strm_wzaes.h",
+				"11Zip/extlibs/minizip/mz_compat.h",
+				"build/11Zip/extlibs/minizip/zip.h",
+				"build/11Zip/extlibs/minizip/unzip.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/11Zip/extlibs/minizip/minizip.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "11Zip/extlibs/minizip",
+		"source" : "11Zip/extlibs/minizip"
+	}
+}

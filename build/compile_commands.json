@@ -1,14 +1,314 @@
 [
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\27Launcher_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\27Launcher_autogen\\mocs_compilation.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\27Launcher_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\27Launcher_autogen\\mocs_compilation.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/27Launcher_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\main.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\main.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\main.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\main.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/src/main.cpp",
   "output": "CMakeFiles/27Launcher.dir/src/main.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\downloadLatestZip.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\downloadLatestZip.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp",
+  "output": "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/accept_encoding.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\async.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\async.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/async.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\auth.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/auth.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\callback.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\callback.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/callback.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cert_info.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cert_info.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cert_info.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\connection_pool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\connection_pool.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/connection_pool.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/connection_pool.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cookies.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cookies.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cprtypes.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cprtypes.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curl_container.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curl_container.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlholder.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curlholder.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\error.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/error.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\file.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\file.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/file.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multipart.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/multipart.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\parameters.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/parameters.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\payload.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/payload.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxies.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/proxies.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxyauth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxyauth.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/proxyauth.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\session.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/session.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\sse.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\sse.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/sse.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/sse.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\threadpool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\threadpool.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/threadpool.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\timeout.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/timeout.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\unix_socket.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/unix_socket.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\util.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/util.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\response.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\response.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/response.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\redirect.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\redirect.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/redirect.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\interceptor.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\interceptor.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/interceptor.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\ssl_ctx.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\ssl_ctx.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/ssl_ctx.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlmultiholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlmultiholder.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curlmultiholder.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multiperform.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multiperform.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/multiperform.cpp",
+  "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\elzip.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\elzip.dir\\elzip_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\11Zip\\elzip_autogen\\mocs_compilation.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/elzip_autogen/mocs_compilation.cpp",
+  "output": "11Zip/CMakeFiles/elzip.dir/elzip_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\elzip.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\elzip.dir\\src\\elzip.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\src\\elzip.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/src/elzip.cpp",
+  "output": "11Zip/CMakeFiles/elzip.dir/src/elzip.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\elzip.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\elzip.dir\\src\\unzipper.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\src\\unzipper.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/src/unzipper.cpp",
+  "output": "11Zip/CMakeFiles/elzip.dir/src/unzipper.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\elzip.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\elzip.dir\\src\\zipper.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\src\\zipper.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/src/zipper.cpp",
+  "output": "11Zip/CMakeFiles/elzip.dir/src/zipper.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_CXX.rsp -g -std=gnu++20 -Wall -o CMakeFiles\\minizip.dir\\minizip_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\11Zip\\extlibs\\minizip\\minizip_autogen\\mocs_compilation.cpp",
+  "file": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip/minizip_autogen/mocs_compilation.cpp",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/minizip_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_crypt.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_crypt.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_crypt.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_crypt.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_os.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_os.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_os.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_os.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_buf.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_buf.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_buf.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_buf.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_mem.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_mem.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_mem.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_mem.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_split.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_split.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_split.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_split.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_zip.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_zip.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_zip.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_zip_rw.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_zip_rw.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_zip_rw.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_zip_rw.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_zlib.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_zlib.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_zlib.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_zlib.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_os_win32.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_os_win32.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_os_win32.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_os_win32.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_os_win32.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_os_win32.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_os_win32.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_os_win32.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_crypt_win32.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_crypt_win32.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_crypt_win32.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_crypt_win32.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_pkcrypt.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_pkcrypt.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_pkcrypt.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_pkcrypt.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_strm_wzaes.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_strm_wzaes.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_strm_wzaes.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_strm_wzaes.c.obj"
+},
+{
+  "directory": "E:/rodgo/CodeProjects/27Launcher/build/11Zip/extlibs/minizip",
+  "command": "e:\\msys64\\ucrt64\\bin\\gcc.exe -DHAVE_INTTYPES_H -DHAVE_PKCRYPT -DHAVE_STDINT_H -DHAVE_WZAES -DHAVE_ZLIB -DZLIB_COMPAT -D_CRT_SECURE_NO_DEPRECATE -D_LARGEFILE64_SOURCE -D__USE_LARGEFILE64 @CMakeFiles\\minizip.dir\\includes_C.rsp -g -Wall -o CMakeFiles\\minizip.dir\\mz_compat.c.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\11Zip\\extlibs\\minizip\\mz_compat.c",
+  "file": "E:/rodgo/CodeProjects/27Launcher/11Zip/extlibs/minizip/mz_compat.c",
+  "output": "11Zip/extlibs/minizip/CMakeFiles/minizip.dir/mz_compat.c.obj"
 }
 ]

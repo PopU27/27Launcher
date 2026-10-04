@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles E:\rodgo\CodeProjects\27Launcher\build\\CMakeFiles\progress.marks
@@ -161,6 +206,97 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher_autogen.dir\build.make CMakeFiles/27Launcher_autogen.dir/build
 .PHONY : 27Launcher_autogen/fast
 
+#=============================================================================
+# Target rules for targets named cpr
+
+# Build rule for target.
+cpr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cpr
+.PHONY : cpr
+
+# fast build rule for target.
+cpr/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\cpr-build\cpr\CMakeFiles\cpr.dir\build.make _deps/cpr-build/cpr/CMakeFiles/cpr.dir/build
+.PHONY : cpr/fast
+
+#=============================================================================
+# Target rules for targets named elzip
+
+# Build rule for target.
+elzip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 elzip
+.PHONY : elzip
+
+# fast build rule for target.
+elzip/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip.dir\build.make 11Zip/CMakeFiles/elzip.dir/build
+.PHONY : elzip/fast
+
+#=============================================================================
+# Target rules for targets named elzip_autogen_timestamp_deps
+
+# Build rule for target.
+elzip_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 elzip_autogen_timestamp_deps
+.PHONY : elzip_autogen_timestamp_deps
+
+# fast build rule for target.
+elzip_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip_autogen_timestamp_deps.dir\build.make 11Zip/CMakeFiles/elzip_autogen_timestamp_deps.dir/build
+.PHONY : elzip_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named elzip_autogen
+
+# Build rule for target.
+elzip_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 elzip_autogen
+.PHONY : elzip_autogen
+
+# fast build rule for target.
+elzip_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip_autogen.dir\build.make 11Zip/CMakeFiles/elzip_autogen.dir/build
+.PHONY : elzip_autogen/fast
+
+#=============================================================================
+# Target rules for targets named minizip
+
+# Build rule for target.
+minizip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minizip
+.PHONY : minizip
+
+# fast build rule for target.
+minizip/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\extlibs\minizip\CMakeFiles\minizip.dir\build.make 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/build
+.PHONY : minizip/fast
+
+#=============================================================================
+# Target rules for targets named minizip_autogen_timestamp_deps
+
+# Build rule for target.
+minizip_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minizip_autogen_timestamp_deps
+.PHONY : minizip_autogen_timestamp_deps
+
+# fast build rule for target.
+minizip_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\extlibs\minizip\CMakeFiles\minizip_autogen_timestamp_deps.dir\build.make 11Zip/extlibs/minizip/CMakeFiles/minizip_autogen_timestamp_deps.dir/build
+.PHONY : minizip_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named minizip_autogen
+
+# Build rule for target.
+minizip_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 minizip_autogen
+.PHONY : minizip_autogen
+
+# fast build rule for target.
+minizip_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f 11Zip\extlibs\minizip\CMakeFiles\minizip_autogen.dir\build.make 11Zip/extlibs/minizip/CMakeFiles/minizip_autogen.dir/build
+.PHONY : minizip_autogen/fast
+
 27Launcher_autogen/mocs_compilation.obj: 27Launcher_autogen/mocs_compilation.cpp.obj
 .PHONY : 27Launcher_autogen/mocs_compilation.obj
 
@@ -184,6 +320,30 @@ depend:
 27Launcher_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.s
 .PHONY : 27Launcher_autogen/mocs_compilation.cpp.s
+
+src/downloadLatestZip.obj: src/downloadLatestZip.cpp.obj
+.PHONY : src/downloadLatestZip.obj
+
+# target to build an object file
+src/downloadLatestZip.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj
+.PHONY : src/downloadLatestZip.cpp.obj
+
+src/downloadLatestZip.i: src/downloadLatestZip.cpp.i
+.PHONY : src/downloadLatestZip.i
+
+# target to preprocess a source file
+src/downloadLatestZip.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.i
+.PHONY : src/downloadLatestZip.cpp.i
+
+src/downloadLatestZip.s: src/downloadLatestZip.cpp.s
+.PHONY : src/downloadLatestZip.s
+
+# target to generate assembly for a file
+src/downloadLatestZip.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.s
+.PHONY : src/downloadLatestZip.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -217,13 +377,27 @@ help:
 	@echo ... depend
 	@echo ... codegen
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... 27Launcher_autogen
 	@echo ... 27Launcher_autogen_timestamp_deps
+	@echo ... elzip_autogen
+	@echo ... elzip_autogen_timestamp_deps
+	@echo ... minizip_autogen
+	@echo ... minizip_autogen_timestamp_deps
 	@echo ... 27Launcher
+	@echo ... cpr
+	@echo ... elzip
+	@echo ... minizip
 	@echo ... 27Launcher_autogen/mocs_compilation.obj
 	@echo ... 27Launcher_autogen/mocs_compilation.i
 	@echo ... 27Launcher_autogen/mocs_compilation.s
+	@echo ... src/downloadLatestZip.obj
+	@echo ... src/downloadLatestZip.i
+	@echo ... src/downloadLatestZip.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
