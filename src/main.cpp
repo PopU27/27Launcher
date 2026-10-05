@@ -1,36 +1,41 @@
 #include "main.h"
 #include "downloadLatestZip.h"
 
+using namespace std;
+using namespace elz;
+using namespace filesystem;
+using namespace Qt;
+
 // Downloads .zip file from url and saves to the dir
-void updateApp(std::string url, std::string dir)
+void updateApp(string url, string dir)
 {
     try {
         downloadLatestZip(url, dir + ".zip");
-    } catch(const std::exception& e) {
-        std::cerr << "Error downloading update" << std::endl;
+    } catch(const exception& e) {
+        cerr << "Error downloading update" << endl;
         return;
     }
 
-    std::cout << "Extracting..." << std::endl;
+    cout << "Extracting..." << endl;
     try {
-        elz::extractZip(dir + ".zip", dir);
-    } catch(const std::exception& e) {
-        std::cerr << "Error extracting file: " << e.what() << std::endl;
+        extractZip(dir + ".zip", dir);
+    } catch(const exception& e) {
+        cerr << "Error extracting file: " << e.what() << endl;
         return;
     }
 
-    std::cout << "Update complete" << std::endl;
+    cout << "Update complete" << endl;
 }
 
 // Helper to make widgets easier
-void setUpWidget(QWidget *widget, QLayout *layout, float width = 150, float height = 50, int fontSize = 12, Qt::Alignment alignment = Qt::AlignCenter)
+void setUpWidget(QWidget *widget, QLayout *layout, float width = 150, float height = 50, int fontSize = 12, Alignment alignment = AlignCenter)
 {
     // Set size
     widget->setFixedSize(QSize(width, height));
 
     // Align the text on labels to be centered
     if (QLabel *label = qobject_cast<QLabel*>(widget)) {
-        label->setAlignment(Qt::AlignCenter);
+        label->setAlignment(AlignCenter);
     }
 
     // Font size
@@ -45,8 +50,8 @@ void setUpWidget(QWidget *widget, QLayout *layout, float width = 150, float heig
 
 int main(int argc, char *argv[])
 {
-    const std::string joatApiUrl = "https://api.github.com/repos/PopU27/Jack-of-All-Trades/contents/Builds/Windows/Latest";
-    const std::string joatPath = "games/Jack-of-All-Trades";
+    const string joatApiUrl = "https://api.github.com/repos/PopU27/Jack-of-All-Trades/contents/Builds/Windows/Latest";
+    const string joatPath = "games/Jack-of-All-Trades";
 
     QApplication app(argc, argv);
 
@@ -117,17 +122,24 @@ int main(int argc, char *argv[])
     stackedWidget->addWidget(joatPage);
 
     QObject::connect(playJoat, &QPushButton::clicked, [=]() {
+        path targetPath = "path/to/file_or_directory";
+
+        if (exists(targetPath)) {
+            cout << "The path exists!\n";
+        } else {
+            cout << "The path does not exist.\n";
+        }
         updateJoat->setEnabled(false);
         playJoat->setEnabled(false);
 
         QThreadPool::globalInstance()->start([=]() {
             
-            int result = std::system(".\\games\\Jack-of-All-Trades\\Builds\\JackOfAllTrades.exe");
+            int result = system(".\\games\\Jack-of-All-Trades\\Builds\\JackOfAllTrades.exe");
 
             QMetaObject::invokeMethod(playJoat, [=]() {
                 updateJoat->setEnabled(true);
                 playJoat->setEnabled(true);
-            }, Qt::QueuedConnection);
+            }, QueuedConnection);
         });
     });
 
@@ -141,11 +153,13 @@ int main(int argc, char *argv[])
             QMetaObject::invokeMethod(updateJoat, [=]() {
                 updateJoat->setEnabled(true);
                 playJoat->setEnabled(true);
-            }, Qt::QueuedConnection);
+            }, QueuedConnection);
         });
+
+        stackedWidget->setCurrentIndex(2);
     });
 
-    QObject::connect(backButtonJoat, &QPushButton::clicked, [stackedWidget]() {
+    QObject::connect(backButtonJoat, &QPushButton::clicked, [=]() {
         stackedWidget->setCurrentIndex(0);
     });
 
@@ -153,6 +167,13 @@ int main(int argc, char *argv[])
     // --- Update page ---
     QWidget *updatePage = new QWidget(stackedWidget);
     QVBoxLayout * updateLayout = new QVBoxLayout(updatePage);
+
+    QProgressBar *updateProgressBar = new QProgressBar(updatePage);
+    updateProgressBar->setRange(0, 100);
+    updateProgressBar->setValue(45);
+    setUpWidget(updateProgressBar, updateLayout, 500);
+
+    stackedWidget->addWidget(updatePage);
 
     mainWindow.show();
 

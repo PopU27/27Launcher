@@ -1,77 +1,81 @@
 #include "downloadLatestZip.h"
 #include "getAppDataPath.h"
 
+using namespace std;
+using namespace cpr;
+using namespace filesystem;
+using namespace nlohmann;
 
-int downloadLatestZip(const std::string& apiUrl, const std::string& name)
+int downloadLatestZip(const string& apiUrl, const string& name)
 {   
     // Makes get request to apiUrl
-    std::cout << "Checking GitHub for the latest ZIP..." << std::endl;
-    cpr::Response apiResponse = cpr::Get(
-        cpr::Url{apiUrl},
-        cpr::Header{
+    cout << "Checking GitHub for the latest ZIP..." << endl;
+    Response apiResponse = Get(
+        Url{apiUrl},
+        Header{
             {"User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) 27Launcher/1.0"},
             {"Accept", "application/vnd.github+json"},
         }
     );
 
     if (apiResponse.status_code != 200) {
-        std::cerr << "Failed to fetch file list from GitHub API. Status: " << apiResponse.status_code << std::endl;
-        std::cerr << "Response Body: " << apiResponse.text << std::endl;
+        cerr << "Failed to fetch file list from GitHub API. Status: " << apiResponse.status_code << endl;
+        cerr << "Response Body: " << apiResponse.text << endl;
         return 1;
     }
 
-    std::string downloadUrl = "";
+    string downloadUrl = "";
 
     // Gets the url to download by parsing the json from the get
      try {
-        auto json_array = nlohmann::json::parse(apiResponse.text);
+        auto json_array = json::parse(apiResponse.text);
         for (const auto& item : json_array) {
-            std::string name = item["name"].get<std::string>();
+            string name = item["name"].get<string>();
             
             if (name.size() >= 4 && name.compare(name.size() - 4, 4, ".zip") == 0) {
-                downloadUrl = item["download_url"].get<std::string>(); 
+                downloadUrl = item["download_url"].get<string>(); 
                 break;
             }
         }
-    } catch (const std::exception& e) {
-        std::cerr << "Error parsing GitHub API JSON response: " << e.what() << std::endl;
+    } catch (const exception& e) {
+        cerr << "Error parsing GitHub API JSON response: " << e.what() << endl;
         return 1;
     }
 
     if (downloadUrl.empty()) {
-        std::cerr << "No .zip file found in the remote directory." << std::endl;
+        cerr << "No .zip file found in the remote directory." << endl;
         return 1;
     }
 
     // By default the download url is raw.githubusercontent.com, but it needs media because of git LFS
     downloadUrl.replace(7, 26, "media.githubusercontent.com/media/");
 
-    std::cout << "Found target file: " << name << std::endl;
+    cout << "Found target file: " << name << endl;
 
     // Makes sure the games folder exists, if not creates it
-    std::filesystem::path localPath(name);
+    path localPath(name);
     if (localPath.has_parent_path()) {
-        std::filesystem::create_directories(localPath.parent_path());
+        create_directories(localPath.parent_path());
     }
 
-    std::filesystem::path dir = std::filesystem::path(getAppDataPath()) / "PopU27" / "27Launcher";
-    std::filesystem::create_directories(dir);
+    path dir = path(getAppDataPath()) / "PopU27" / "27Launcher";
+    create_directories(dir);
 
-    std::filesystem::path fullFilePath = dir / name;
+    path fullFilePath = dir / name;
 
-    std::filesystem::create_directories(fullFilePath.parent_path());
+    create_directories(fullFilePath.parent_path());
 
-    std::ofstream file(fullFilePath, std::ios::binary);
+    ofstream file(fullFilePath, ios::binary);
     if (!file.is_open()) {
-        std::cerr << "Failed to create target file at: " << fullFilePath << std::endl;
+        cerr << "Failed to create target file at: " << fullFilePath << endl;
         return 1;
     }
 
-    std::cout << "Downloading update from: " << downloadUrl << std::endl;
-    cpr::Response downloadResponse = cpr::Get(
-        cpr::Url{downloadUrl},
-        cpr::Redirect{true},
-        cpr::WriteCallback{[&file](const std::string_view data, intptr_t userdata) -> bool {
+    cout << "Downloading update from: " << downloadUrl << endl;
+    Response downloadResponse = Get(
+        Url{downloadUrl},
+        Redirect{true},
+        WriteCallback{[&file](const string_view data, intptr_t userdata) -> bool {
             file.write(data.data(), data.size());
             return true;
         }}
@@ -80,11 +84,11 @@ int downloadLatestZip(const std::string& apiUrl, const std::string& name)
     file.close();
 
     if (downloadResponse.status_code == 200) {
-        std::cout << "Download complete: " << name << std::endl;
+        cout << "Download complete: " << name << endl;
         return 0;
     } else {
-        std::cerr << "Download failed! HTTP Status: " << downloadResponse.status_code << std::endl;
-        std::remove(name.c_str());
+        cerr << "Download failed! HTTP Status: " << downloadResponse.status_code << endl;
+        remove(fullFilePath.string().c_str());
         return 1;
     }
 }

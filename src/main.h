@@ -9,5 +9,7 @@
 #include <QSettings>
 #include <QThreadPool>
 #include <QStackedWidget>
+#include <QProgressBar>
+#include <filesystem>
 
 #include <cstdlib>

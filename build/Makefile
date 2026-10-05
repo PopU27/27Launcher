@@ -321,6 +321,14 @@ minizip_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.s
 .PHONY : 27Launcher_autogen/mocs_compilation.cpp.s
 
+resources.obj: resources.rc.obj
+.PHONY : resources.obj
+
+# target to build an object file
+resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/resources.rc.obj
+.PHONY : resources.rc.obj
+
 src/downloadLatestZip.obj: src/downloadLatestZip.cpp.obj
 .PHONY : src/downloadLatestZip.obj
 
@@ -419,6 +427,7 @@ help:
 	@echo ... 27Launcher_autogen/mocs_compilation.obj
 	@echo ... 27Launcher_autogen/mocs_compilation.i
 	@echo ... 27Launcher_autogen/mocs_compilation.s
+	@echo ... resources.obj
 	@echo ... src/downloadLatestZip.obj
 	@echo ... src/downloadLatestZip.i
 	@echo ... src/downloadLatestZip.s

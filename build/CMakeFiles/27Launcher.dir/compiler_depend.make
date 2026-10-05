@@ -1810,6 +1810,7 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src
   E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs_win.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/QApplication \
   E:/msys64/ucrt64/include/qt6/QtWidgets/QLabel \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/QProgressBar \
   E:/msys64/ucrt64/include/qt6/QtWidgets/QPushButton \
   E:/msys64/ucrt64/include/qt6/QtWidgets/QStackedWidget \
   E:/msys64/ucrt64/include/qt6/QtWidgets/QVBoxLayout \
@@ -1822,6 +1823,7 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src
   E:/msys64/ucrt64/include/qt6/QtWidgets/qlabel.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/qlayout.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/qlayoutitem.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qprogressbar.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/qpushbutton.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/qsizepolicy.h \
   E:/msys64/ucrt64/include/qt6/QtWidgets/qstackedwidget.h \
@@ -2662,6 +2664,8 @@ E:/msys64/ucrt64/include/psdk_inc/_wsadata.h:
 E:/msys64/ucrt64/include/qt6/QtCore/qatomic_cxx11.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qprogressbar.h:
 
 E:/msys64/ucrt64/include/sal.h:
 
@@ -3910,6 +3914,8 @@ E:/msys64/ucrt64/include/qt6/QtGui/qrgba64.h:
 E:/msys64/ucrt64/include/qt6/QtGui/qtguiexports.h:
 
 E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/QProgressBar:
 
 E:/msys64/ucrt64/include/qt6/QtWidgets/QPushButton:
 

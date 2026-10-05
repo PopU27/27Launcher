@@ -33,6 +33,7 @@ qt_standard_project_setup()
 add_subdirectory(11Zip)
 
 add_executable(27Launcher #WIN32 - include this before deploying
+    resources.rc
     src/main.cpp
     src/downloadLatestZip.cpp
     src/getAppDataPath.cpp
