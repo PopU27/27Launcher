@@ -1,16 +1,21 @@
 #include "main.h"
 #include "downloadLatestZip.h"
+#include "getAppDataPath.h"
 
 using namespace std;
 using namespace elz;
 using namespace filesystem;
 using namespace Qt;
 
+const string appDataPath = getAppDataPath() + "\\PopU27\\27Launcher\\";
+
 // Downloads .zip file from url and saves to the dir
-void updateApp(string url, string dir)
+void updateApp(string url, string name)
 {
+    string fullPath = appDataPath + "games\\" + name;
+
     try {
-        downloadLatestZip(url, dir + ".zip");
+        downloadLatestZip(url, fullPath + ".zip");
     } catch(const exception& e) {
         cerr << "Error downloading update" << endl;
         return;
@@ -18,7 +23,7 @@ void updateApp(string url, string dir)
 
     cout << "Extracting..." << endl;
     try {
-        extractZip(dir + ".zip", dir);
+        extractZip(fullPath + ".zip", fullPath + name);
     } catch(const exception& e) {
         cerr << "Error extracting file: " << e.what() << endl;
         return;
@@ -51,7 +56,6 @@ void setUpWidget(QWidget *widget, QLayout *layout, float width = 150, float heig
 int main(int argc, char *argv[])
 {
     const string joatApiUrl = "https://api.github.com/repos/PopU27/Jack-of-All-Trades/contents/Builds/Windows/Latest";
-    const string joatPath = "games/Jack-of-All-Trades";
 
     QApplication app(argc, argv);
 
@@ -122,12 +126,12 @@ int main(int argc, char *argv[])
     stackedWidget->addWidget(joatPage);
 
     QObject::connect(playJoat, &QPushButton::clicked, [=]() {
-        path targetPath = "path/to/file_or_directory";
+        path targetPath = "";
 
         if (exists(targetPath)) {
-            cout << "The path exists!\n";
+            
         } else {
-            cout << "The path does not exist.\n";
+            
         }
         updateJoat->setEnabled(false);
         playJoat->setEnabled(false);
@@ -148,7 +152,7 @@ int main(int argc, char *argv[])
         playJoat->setEnabled(false);
 
         QThreadPool::globalInstance()->start([=]() {
-            updateApp(joatApiUrl, joatPath);
+            updateApp(joatApiUrl, "Jack-of-All-Trades");
 
             QMetaObject::invokeMethod(updateJoat, [=]() {
                 updateJoat->setEnabled(true);

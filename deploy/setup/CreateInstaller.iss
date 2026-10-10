@@ -44,8 +44,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\rodgo\CodeProjects\27Launcher\deploy\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\rodgo\CodeProjects\27Launcher\deploy\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\rodgo\CodeProjects\27Launcher\build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+; Source: "E:\rodgo\CodeProjects\27Launcher\deploy\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\msys64\ucrt64\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 ;Source: "E:\msys64\ucrt64\bin\libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 ;Source: "E:\msys64\ucrt64\bin\libstdc++-6.dll"; DestDir: "{app}"; Flags: ignoreversion

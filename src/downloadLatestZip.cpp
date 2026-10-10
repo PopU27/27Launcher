@@ -58,16 +58,16 @@ int downloadLatestZip(const string& apiUrl, const string& name)
         create_directories(localPath.parent_path());
     }
 
-    path dir = path(getAppDataPath()) / "PopU27" / "27Launcher";
-    create_directories(dir);
+    //path dir = path(getAppDataPath()) / "PopU27" / "27Launcher";
+    //create_directories(name);
 
-    path fullFilePath = dir / name;
+    path path = name;
 
-    create_directories(fullFilePath.parent_path());
+    create_directories(path.parent_path());
 
-    ofstream file(fullFilePath, ios::binary);
+    ofstream file(path, ios::binary);
     if (!file.is_open()) {
-        cerr << "Failed to create target file at: " << fullFilePath << endl;
+        cerr << "Failed to create target file at: " << path << endl;
         return 1;
     }
 
@@ -88,7 +88,7 @@ int downloadLatestZip(const string& apiUrl, const string& name)
         return 0;
     } else {
         cerr << "Download failed! HTTP Status: " << downloadResponse.status_code << endl;
-        remove(fullFilePath.string().c_str());
+        remove(path.string().c_str());
         return 1;
     }
 }

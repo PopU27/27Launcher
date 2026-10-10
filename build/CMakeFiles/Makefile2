@@ -197,8 +197,8 @@ _deps/cpr-build/include/clean:
 CMakeFiles/27Launcher.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
 CMakeFiles/27Launcher.dir/all: 11Zip/CMakeFiles/elzip.dir/all
 CMakeFiles/27Launcher.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all
-CMakeFiles/27Launcher.dir/all: CMakeFiles/27Launcher_autogen.dir/all
 CMakeFiles/27Launcher.dir/all: CMakeFiles/27Launcher_autogen_timestamp_deps.dir/all
+CMakeFiles/27Launcher.dir/all: CMakeFiles/27Launcher_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target 27Launcher"
@@ -328,8 +328,8 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/clean:
 
 # All Build rule for target.
 11Zip/CMakeFiles/elzip.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all
-11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen.dir/all
 11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen_timestamp_deps.dir/all
+11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip.dir\build.make 11Zip/CMakeFiles/elzip.dir/depend
 	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip.dir\build.make 11Zip/CMakeFiles/elzip.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=38,39,40,41,42,43 "Built target elzip"

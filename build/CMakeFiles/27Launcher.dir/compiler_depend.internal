@@ -1485,6 +1485,8 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/cderr.h
  E:/msys64/ucrt64/include/cguid.h
  E:/msys64/ucrt64/include/combaseapi.h
+ E:/msys64/ucrt64/include/comcat.h
+ E:/msys64/ucrt64/include/commctrl.h
  E:/msys64/ucrt64/include/commdlg.h
  E:/msys64/ucrt64/include/concurrencysal.h
  E:/msys64/ucrt64/include/consoleapi.h
@@ -1514,11 +1516,13 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/ddeml.h
  E:/msys64/ucrt64/include/debugapi.h
  E:/msys64/ucrt64/include/dlgs.h
+ E:/msys64/ucrt64/include/docobj.h
  E:/msys64/ucrt64/include/dpapi.h
  E:/msys64/ucrt64/include/driverspecs.h
  E:/msys64/ucrt64/include/errhandlingapi.h
  E:/msys64/ucrt64/include/errno.h
  E:/msys64/ucrt64/include/excpt.h
+ E:/msys64/ucrt64/include/exdisp.h
  E:/msys64/ucrt64/include/fibersapi.h
  E:/msys64/ucrt64/include/fileapi.h
  E:/msys64/ucrt64/include/fltwinerror.h
@@ -1531,8 +1535,10 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/interlockedapi.h
  E:/msys64/ucrt64/include/inttypes.h
  E:/msys64/ucrt64/include/ioapiset.h
+ E:/msys64/ucrt64/include/isguids.h
  E:/msys64/ucrt64/include/jobapi.h
  E:/msys64/ucrt64/include/joystickapi.h
+ E:/msys64/ucrt64/include/knownfolders.h
  E:/msys64/ucrt64/include/ktmtypes.h
  E:/msys64/ucrt64/include/libloaderapi.h
  E:/msys64/ucrt64/include/limits.h
@@ -1604,8 +1610,10 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/nlohmann/thirdparty/hedley/hedley_undef.hpp
  E:/msys64/ucrt64/include/oaidl.h
  E:/msys64/ucrt64/include/objbase.h
+ E:/msys64/ucrt64/include/objectarray.h
  E:/msys64/ucrt64/include/objidl.h
  E:/msys64/ucrt64/include/objidlbase.h
+ E:/msys64/ucrt64/include/ocidl.h
  E:/msys64/ucrt64/include/ole2.h
  E:/msys64/ucrt64/include/oleauto.h
  E:/msys64/ucrt64/include/oleidl.h
@@ -1617,6 +1625,8 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/processtopologyapi.h
  E:/msys64/ucrt64/include/profileapi.h
  E:/msys64/ucrt64/include/propidl.h
+ E:/msys64/ucrt64/include/propkeydef.h
+ E:/msys64/ucrt64/include/propsys.h
  E:/msys64/ucrt64/include/prsht.h
  E:/msys64/ucrt64/include/psdk_inc/_fd_types.h
  E:/msys64/ucrt64/include/psdk_inc/_ip_mreq1.h
@@ -1860,6 +1870,12 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/securitybaseapi.h
  E:/msys64/ucrt64/include/servprov.h
  E:/msys64/ucrt64/include/shellapi.h
+ E:/msys64/ucrt64/include/sherrors.h
+ E:/msys64/ucrt64/include/shldisp.h
+ E:/msys64/ucrt64/include/shlguid.h
+ E:/msys64/ucrt64/include/shlobj.h
+ E:/msys64/ucrt64/include/shobjidl.h
+ E:/msys64/ucrt64/include/shtypes.h
  E:/msys64/ucrt64/include/signal.h
  E:/msys64/ucrt64/include/specstrings.h
  E:/msys64/ucrt64/include/stdarg.h
@@ -1870,6 +1886,7 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/msys64/ucrt64/include/stralign.h
  E:/msys64/ucrt64/include/string.h
  E:/msys64/ucrt64/include/stringapiset.h
+ E:/msys64/ucrt64/include/structuredquerycondition.h
  E:/msys64/ucrt64/include/swprintf.inl
  E:/msys64/ucrt64/include/synchapi.h
  E:/msys64/ucrt64/include/sys/timeb.h
@@ -2098,5 +2115,6 @@ CMakeFiles/27Launcher.dir/src/main.cpp.obj
  E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/include/cpr/util.h
  E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/include/cpr/verbose.h
  E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h
+ E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h
  E:/rodgo/CodeProjects/27Launcher/src/main.h
 
