@@ -11,5 +11,6 @@
 #include <QStackedWidget>
 #include <QProgressBar>
 #include <filesystem>
+#include <functional>
 
 #include <cstdlib>

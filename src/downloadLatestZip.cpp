@@ -6,7 +6,7 @@ using namespace cpr;
 using namespace filesystem;
 using namespace nlohmann;
 
-int downloadLatestZip(const string& apiUrl, const string& name)
+int downloadLatestZip(const string& apiUrl, const string& name, function<void(size_t, size_t)> progressCallback)
 {   
     // Makes get request to apiUrl
     cout << "Checking GitHub for the latest ZIP..." << endl;
@@ -72,12 +72,22 @@ int downloadLatestZip(const string& apiUrl, const string& name)
     }
 
     cout << "Downloading update from: " << downloadUrl << endl;
+
     Response downloadResponse = Get(
         Url{downloadUrl},
         Redirect{true},
         WriteCallback{[&file](const string_view data, intptr_t userdata) -> bool {
             file.write(data.data(), data.size());
             return true;
+        }},
+
+        ProgressCallback{[progressCallback](cpr_off_t downloadTotal, cpr_off_t downloadNow, 
+                                           cpr_off_t uploadTotal, cpr_off_t uploadNow, 
+                                           intptr_t userdata) -> bool {
+            if (progressCallback && downloadTotal > 0) {
+                progressCallback(static_cast<size_t>(downloadNow), static_cast<size_t>(downloadTotal));
+            }
+            return true; 
         }}
     );
 

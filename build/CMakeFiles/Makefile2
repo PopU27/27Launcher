@@ -195,8 +195,8 @@ _deps/cpr-build/include/clean:
 
 # All Build rule for target.
 CMakeFiles/27Launcher.dir/all: _deps/cpr-build/cpr/CMakeFiles/cpr.dir/all
-CMakeFiles/27Launcher.dir/all: 11Zip/CMakeFiles/elzip.dir/all
 CMakeFiles/27Launcher.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all
+CMakeFiles/27Launcher.dir/all: 11Zip/CMakeFiles/elzip.dir/all
 CMakeFiles/27Launcher.dir/all: CMakeFiles/27Launcher_autogen_timestamp_deps.dir/all
 CMakeFiles/27Launcher.dir/all: CMakeFiles/27Launcher_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/depend
@@ -328,8 +328,8 @@ _deps/cpr-build/cpr/CMakeFiles/cpr.dir/clean:
 
 # All Build rule for target.
 11Zip/CMakeFiles/elzip.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all
-11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen_timestamp_deps.dir/all
 11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen.dir/all
+11Zip/CMakeFiles/elzip.dir/all: 11Zip/CMakeFiles/elzip_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip.dir\build.make 11Zip/CMakeFiles/elzip.dir/depend
 	$(MAKE) $(MAKESILENT) -f 11Zip\CMakeFiles\elzip.dir\build.make 11Zip/CMakeFiles/elzip.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=38,39,40,41,42,43 "Built target elzip"
@@ -425,8 +425,8 @@ elzip_autogen: 11Zip/CMakeFiles/elzip_autogen.dir/rule
 # Target rules for target 11Zip/extlibs/minizip/CMakeFiles/minizip.dir
 
 # All Build rule for target.
-11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip_autogen_timestamp_deps.dir/all
 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip_autogen.dir/all
+11Zip/extlibs/minizip/CMakeFiles/minizip.dir/all: 11Zip/extlibs/minizip/CMakeFiles/minizip_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f 11Zip\extlibs\minizip\CMakeFiles\minizip.dir\build.make 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/depend
 	$(MAKE) $(MAKESILENT) -f 11Zip\extlibs\minizip\CMakeFiles\minizip.dir\build.make 11Zip/extlibs/minizip/CMakeFiles/minizip.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62 "Built target minizip"

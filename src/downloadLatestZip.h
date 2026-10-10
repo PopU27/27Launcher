@@ -10,5 +10,8 @@
 
 #include <fstream>
 
+#include <functional>
 
-int downloadLatestZip(const std::string& path, const std::string& name);
+
+int downloadLatestZip(const std::string& path, const std::string& name,
+                    std::function<void(size_t, size_t)> progressCallback = nullptr);

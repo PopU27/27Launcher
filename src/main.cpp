@@ -9,12 +9,12 @@ using namespace Qt;
 const string appDataPath = getAppDataPath() + "\\PopU27\\27Launcher\\";
 
 // Downloads .zip file from url and saves to the dir
-void updateApp(string url, string name)
+void updateApp(string url, string name, function<void(size_t, size_t)> progressCallback)
 {
     string fullPath = appDataPath + "games\\" + name;
 
     try {
-        downloadLatestZip(url, fullPath + ".zip");
+        downloadLatestZip(url, fullPath + ".zip", progressCallback);
     } catch(const exception& e) {
         cerr << "Error downloading update" << endl;
         return;
@@ -102,8 +102,19 @@ int main(int argc, char *argv[])
     QObject::connect(quit, &QPushButton::clicked, &mainWindow, &QWidget::close);
 
     QObject::connect(joatButton, &QPushButton::clicked, [stackedWidget]() {
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(2);
     });
+
+    // --- Update page ---
+    QWidget *updatePage = new QWidget(stackedWidget);
+    QVBoxLayout * updateLayout = new QVBoxLayout(updatePage);
+
+    QProgressBar *updateProgressBar = new QProgressBar(updatePage);
+    updateProgressBar->setRange(0, 100);
+    updateProgressBar->setValue(45);
+    setUpWidget(updateProgressBar, updateLayout, 500);
+
+    stackedWidget->addWidget(updatePage);
 
     // --- Jack of All Trades page ---
     QWidget *joatPage = new QWidget(stackedWidget);
@@ -151,34 +162,31 @@ int main(int argc, char *argv[])
         updateJoat->setEnabled(false);
         playJoat->setEnabled(false);
 
+        updateProgressBar->setValue(0);
+        stackedWidget->setCurrentIndex(1);
+
         QThreadPool::globalInstance()->start([=]() {
-            updateApp(joatApiUrl, "Jack-of-All-Trades");
+            auto onProgressChange = [=](size_t downloaded, size_t total) {
+                int percentage = static_cast<int>((downloaded * 100) / total);
+
+                QMetaObject::invokeMethod(updateProgressBar, [=]() {
+                        updateProgressBar->setValue(percentage);
+                }, Qt::QueuedConnection);
+            };
+
+            updateApp(joatApiUrl, "Jack-of-All-Trades", onProgressChange);
 
             QMetaObject::invokeMethod(updateJoat, [=]() {
-                stackedWidget->setCurrentIndex(1);
+                stackedWidget->setCurrentIndex(2);
                 updateJoat->setEnabled(true);
                 playJoat->setEnabled(true);
             }, QueuedConnection);
         });
-
-        stackedWidget->setCurrentIndex(2);
     });
 
     QObject::connect(backButtonJoat, &QPushButton::clicked, [=]() {
         stackedWidget->setCurrentIndex(0);
     });
-
-
-    // --- Update page ---
-    QWidget *updatePage = new QWidget(stackedWidget);
-    QVBoxLayout * updateLayout = new QVBoxLayout(updatePage);
-
-    QProgressBar *updateProgressBar = new QProgressBar(updatePage);
-    updateProgressBar->setRange(0, 100);
-    updateProgressBar->setValue(45);
-    setUpWidget(updateProgressBar, updateLayout, 500);
-
-    stackedWidget->addWidget(updatePage);
 
     mainWindow.show();
 
