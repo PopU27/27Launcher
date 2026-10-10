@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"11Zip/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -22,32 +22,32 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "27Launcher_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "elzip_autogen_timestamp_deps::@4969fb39d5a0a549e73c"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "QtInternalTargets"
 	},
-	"id" : "27Launcher_autogen::@6890427a1f51a3e7e1df",
+	"id" : "elzip_autogen::@4969fb39d5a0a549e73c",
 	"isGeneratorProvided" : true,
-	"name" : "27Launcher_autogen",
+	"name" : "elzip_autogen",
 	"orderDependencies" : 
 	[
-		{
-			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
-		},
 		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "27Launcher_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "elzip_autogen_timestamp_deps::@4969fb39d5a0a549e73c"
 		}
 	],
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "11Zip",
+		"source" : "11Zip"
 	},
 	"sourceGroups" : 
 	[
@@ -76,7 +76,7 @@
 				0
 			],
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/27Launcher_autogen",
+			"path" : "build/11Zip/CMakeFiles/elzip_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -86,7 +86,7 @@
 				0
 			],
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/27Launcher_autogen.rule",
+			"path" : "build/11Zip/CMakeFiles/elzip_autogen.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -96,7 +96,7 @@
 				0
 			],
 			"isGenerated" : true,
-			"path" : "build/27Launcher_autogen/timestamp.rule",
+			"path" : "build/11Zip/elzip_autogen/timestamp.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

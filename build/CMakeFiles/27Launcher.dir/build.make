@@ -176,6 +176,7 @@ CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s: cmake_force
 27Launcher.exe: 11Zip/libelzip.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libQt6Gui.dll.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libQt6Core.dll.a
+27Launcher.exe: E:/msys64/ucrt64/lib/libQt6EntryPoint.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libcurl.dll.a
 27Launcher.exe: 11Zip/extlibs/minizip/libminizip.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libz.dll.a

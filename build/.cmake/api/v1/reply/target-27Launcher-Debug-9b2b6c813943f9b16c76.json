@@ -30,10 +30,13 @@
 			"E:/msys64/ucrt64/lib/cmake/Qt6/Qt6Config.cmake",
 			"E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
 			"C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake",
 			"E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 			"build/_deps/cpr-src/cpr/CMakeLists.txt",
 			"11Zip/CMakeLists.txt",
@@ -120,9 +123,9 @@
 			},
 			{
 				"command" : 3,
-				"file" : 2,
-				"line" : 40,
-				"parent" : 6
+				"file" : 5,
+				"line" : 42,
+				"parent" : 11
 			},
 			{
 				"file" : 10,
@@ -131,7 +134,7 @@
 			{
 				"command" : 7,
 				"file" : 10,
-				"line" : 50,
+				"line" : 51,
 				"parent" : 16
 			},
 			{
@@ -173,37 +176,97 @@
 				"parent" : 23
 			},
 			{
-				"file" : 11
+				"command" : 2,
+				"file" : 6,
+				"line" : 94,
+				"parent" : 23
 			},
 			{
-				"command" : 1,
-				"file" : 11,
-				"line" : 36,
-				"parent" : 25
+				"command" : 3,
+				"file" : 2,
+				"line" : 40,
+				"parent" : 6
 			},
 			{
-				"file" : 12
+				"file" : 13,
+				"parent" : 26
 			},
 			{
-				"command" : 1,
-				"file" : 12,
-				"line" : 62,
+				"command" : 7,
+				"file" : 13,
+				"line" : 50,
 				"parent" : 27
 			},
 			{
-				"file" : 13
+				"command" : 6,
+				"file" : 9,
+				"line" : 142,
+				"parent" : 28
 			},
 			{
-				"command" : 1,
-				"file" : 13,
-				"line" : 702,
+				"command" : 5,
+				"file" : 8,
+				"line" : 125,
 				"parent" : 29
 			},
 			{
-				"command" : 1,
+				"command" : 4,
+				"file" : 8,
+				"line" : 93,
+				"parent" : 30
+			},
+			{
 				"file" : 12,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 55,
+				"parent" : 32
+			},
+			{
+				"file" : 11,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 11,
+				"line" : 61,
+				"parent" : 34
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 36,
+				"parent" : 36
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 62,
+				"parent" : 38
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 702,
+				"parent" : 40
+			},
+			{
+				"command" : 1,
+				"file" : 15,
 				"line" : 67,
-				"parent" : 27
+				"parent" : 38
 			}
 		]
 	},
@@ -257,6 +320,10 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NEEDS_QMAIN"
 				},
 				{
 					"backtrace" : 2,
@@ -384,6 +451,10 @@
 				},
 				{
 					"backtrace" : 2,
+					"define" : "QT_NEEDS_QMAIN"
+				},
+				{
+					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
 				},
 				{
@@ -495,15 +566,15 @@
 			"id" : "elzip::@4969fb39d5a0a549e73c"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "27Launcher_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "minizip::@bc5dea30d15d4ef19065"
 		},
 		{
 			"id" : "27Launcher_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "27Launcher_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "27Launcher::@6890427a1f51a3e7e1df",
@@ -513,6 +584,10 @@
 		[
 			{
 				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mwindows",
 				"role" : "flags"
 			},
 			{
@@ -557,46 +632,61 @@
 			},
 			{
 				"backtrace" : 24,
+				"fragment" : "-lmingw32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "E:\\msys64\\ucrt64\\lib\\libQt6EntryPoint.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "-lshell32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
 				"fragment" : "-ld3d11",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 24,
+				"backtrace" : 35,
 				"fragment" : "-ldxgi",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 24,
+				"backtrace" : 35,
 				"fragment" : "-ldxguid",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 24,
+				"backtrace" : 35,
 				"fragment" : "-ld3d12",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 26,
+				"backtrace" : 37,
 				"fragment" : "E:\\msys64\\ucrt64\\lib\\libcurl.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 28,
+				"backtrace" : 39,
 				"fragment" : "11Zip\\extlibs\\minizip\\libminizip.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 30,
+				"backtrace" : 41,
 				"fragment" : "E:\\msys64\\ucrt64\\lib\\libz.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 30,
+				"backtrace" : 41,
 				"fragment" : "-lcrypt32",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 31,
+				"backtrace" : 42,
 				"fragment" : "-lstdc++fs",
 				"role" : "libraries"
 			},
@@ -635,17 +725,17 @@
 	"orderDependencies" : 
 	[
 		{
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+		},
+		{
 			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+			"id" : "27Launcher_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "27Launcher_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "27Launcher_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 

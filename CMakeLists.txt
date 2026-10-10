@@ -39,7 +39,7 @@ file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS
     "src/*.h"
 )
 
-add_executable(27Launcher #WIN32 #- include this before deploying
+add_executable(27Launcher WIN32 #- include this before deploying
     resources.rc
     ${SOURCE_FILES}
 )

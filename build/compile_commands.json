@@ -1,31 +1,31 @@
 [
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\27Launcher_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\27Launcher_autogen\\mocs_compilation.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\27Launcher_autogen\\mocs_compilation.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\27Launcher_autogen\\mocs_compilation.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/27Launcher_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\downloadLatestZip.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\downloadLatestZip.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\downloadLatestZip.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\downloadLatestZip.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp",
   "output": "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\getAppDataPath.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\getAppDataPath.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\getAppDataPath.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\getAppDataPath.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp",
   "output": "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\main.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\main.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\main.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\main.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/src/main.cpp",
   "output": "CMakeFiles/27Launcher.dir/src/main.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\slidingStackedWidget.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\slidingStackedWidget.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\27Launcher.dir\\includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\27Launcher.dir\\src\\slidingStackedWidget.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\src\\slidingStackedWidget.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp",
   "output": "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj"
 },

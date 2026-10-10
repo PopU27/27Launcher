@@ -246,11 +246,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "minizip_autogen_timestamp_deps::@bc5dea30d15d4ef19065"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "minizip_autogen::@bc5dea30d15d4ef19065"
+		},
+		{
+			"id" : "minizip_autogen_timestamp_deps::@bc5dea30d15d4ef19065"
 		}
 	],
 	"id" : "minizip::@bc5dea30d15d4ef19065",
@@ -295,17 +295,17 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "minizip_autogen_timestamp_deps::@bc5dea30d15d4ef19065"
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "minizip_autogen::@bc5dea30d15d4ef19065"
+		},
+		{
+			"id" : "minizip_autogen_timestamp_deps::@bc5dea30d15d4ef19065"
 		}
 	],
 	"paths" : 

@@ -130,12 +130,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "elzip_autogen::@4969fb39d5a0a549e73c"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "minizip::@bc5dea30d15d4ef19065"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "elzip_autogen::@4969fb39d5a0a549e73c"
 		},
 		{
 			"id" : "elzip_autogen_timestamp_deps::@4969fb39d5a0a549e73c"
@@ -176,10 +176,10 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
+			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
