@@ -3,7 +3,6 @@
 #include "getAppDataPath.h"
 
 using namespace std;
-using namespace elz;
 using namespace filesystem;
 using namespace Qt;
 
@@ -23,7 +22,7 @@ void updateApp(string url, string name)
 
     cout << "Extracting..." << endl;
     try {
-        extractZip(fullPath + ".zip", fullPath + name);
+        elz::extractZip(fullPath + ".zip", appDataPath + "games\\");
     } catch(const exception& e) {
         cerr << "Error extracting file: " << e.what() << endl;
         return;
@@ -69,6 +68,7 @@ int main(int argc, char *argv[])
     }
     settings.endGroup();
 
+    // Stores settings
     QObject::connect(&app, &QApplication::aboutToQuit, [&mainWindow]() {
         QSettings settings("PopU27", "27Launcher");
         settings.beginGroup("MainWindow");
@@ -126,25 +126,25 @@ int main(int argc, char *argv[])
     stackedWidget->addWidget(joatPage);
 
     QObject::connect(playJoat, &QPushButton::clicked, [=]() {
-        path targetPath = "";
+        path targetPath = path(appDataPath) / "games" / "Jack-of-All-Trades" / "Builds" / "JackOfAllTrades.exe";
 
         if (exists(targetPath)) {
-            
+            updateJoat->setEnabled(false);
+            playJoat->setEnabled(false);
+
+            QThreadPool::globalInstance()->start([=]() {
+                
+                int result = system(targetPath.string().c_str());
+
+                QMetaObject::invokeMethod(playJoat, [=]() {
+                    updateJoat->setEnabled(true);
+                    playJoat->setEnabled(true);
+                }, QueuedConnection);
+            });
         } else {
-            
+            cerr << targetPath << " does not exist!" << endl;
         }
-        updateJoat->setEnabled(false);
-        playJoat->setEnabled(false);
-
-        QThreadPool::globalInstance()->start([=]() {
-            
-            int result = system(".\\games\\Jack-of-All-Trades\\Builds\\JackOfAllTrades.exe");
-
-            QMetaObject::invokeMethod(playJoat, [=]() {
-                updateJoat->setEnabled(true);
-                playJoat->setEnabled(true);
-            }, QueuedConnection);
-        });
+        
     });
 
     QObject::connect(updateJoat, &QPushButton::clicked, [=]() {
@@ -155,6 +155,7 @@ int main(int argc, char *argv[])
             updateApp(joatApiUrl, "Jack-of-All-Trades");
 
             QMetaObject::invokeMethod(updateJoat, [=]() {
+                stackedWidget->setCurrentIndex(1);
                 updateJoat->setEnabled(true);
                 playJoat->setEnabled(true);
             }, QueuedConnection);

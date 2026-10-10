@@ -45,29 +45,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "E:\rodgo\CodeProjects\27Launcher\build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-; Source: "E:\rodgo\CodeProjects\27Launcher\deploy\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "E:\msys64\ucrt64\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
-;Source: "E:\msys64\ucrt64\bin\libgcc_s_seh-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libstdc++-6.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libwinpthread-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-
-
-; For QT6
-;Source: "E:\msys64\ucrt64\bin\Qt6Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\Qt6Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\Qt6Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libpsl-5.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libngtcp2_crypto_ossl-0.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libssh2-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libbrotlicommon.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libiconv-2.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libintl-8.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libunistring-5.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libzstd.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libb2-1.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\msys64\ucrt64\bin\libdouble-conversion.dll"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
