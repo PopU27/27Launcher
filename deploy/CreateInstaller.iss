@@ -3,7 +3,7 @@
 ; Non-commercial use only
 
 #define MyAppName "27Launcher"
-#define MyAppVersion "1.0"
+#define MyAppVersion "0.1"
 #define MyAppPublisher "PopU27"
 #define MyAppURL "https://github.com/PopU27/27Launcher"
 #define MyAppExeName "27Launcher.exe"

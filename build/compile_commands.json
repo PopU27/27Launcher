@@ -25,175 +25,175 @@
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\accept_encoding.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\accept_encoding.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/accept_encoding.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/accept_encoding.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\async.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\async.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\async.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\async.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/async.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/async.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\auth.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\auth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\auth.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/auth.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/auth.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\callback.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\callback.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\callback.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\callback.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/callback.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/callback.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cert_info.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cert_info.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cert_info.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cert_info.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cert_info.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cert_info.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\connection_pool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\connection_pool.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\connection_pool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\connection_pool.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/connection_pool.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/connection_pool.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cookies.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cookies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cookies.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cookies.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cookies.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cprtypes.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\cprtypes.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\cprtypes.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/cprtypes.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/cprtypes.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curl_container.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curl_container.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curl_container.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curl_container.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curl_container.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlholder.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlholder.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curlholder.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlholder.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\error.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\error.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\error.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/error.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/error.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\file.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\file.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\file.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\file.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/file.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/file.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multipart.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multipart.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multipart.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/multipart.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multipart.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\parameters.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\parameters.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\parameters.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/parameters.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/parameters.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\payload.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\payload.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\payload.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/payload.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/payload.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxies.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxies.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxies.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/proxies.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxies.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxyauth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxyauth.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\proxyauth.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\proxyauth.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/proxyauth.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/proxyauth.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\session.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\session.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\session.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/session.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/session.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\sse.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\sse.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\sse.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\sse.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/sse.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/sse.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\threadpool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\threadpool.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\threadpool.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\threadpool.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/threadpool.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/threadpool.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\timeout.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\timeout.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\timeout.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/timeout.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/timeout.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\unix_socket.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\unix_socket.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\unix_socket.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/unix_socket.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/unix_socket.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\util.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\util.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\util.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/util.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/util.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\response.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\response.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\response.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\response.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/response.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/response.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\redirect.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\redirect.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\redirect.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\redirect.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/redirect.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/redirect.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\interceptor.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\interceptor.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\interceptor.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\interceptor.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/interceptor.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/interceptor.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\ssl_ctx.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\ssl_ctx.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\ssl_ctx.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\ssl_ctx.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/ssl_ctx.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/ssl_ctx.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlmultiholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlmultiholder.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\curlmultiholder.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\curlmultiholder.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/curlmultiholder.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/curlmultiholder.cpp.obj"
 },
 {
   "directory": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/cpr",
-  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multiperform.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multiperform.cpp",
+  "command": "e:\\msys64\\ucrt64\\bin\\g++.exe -DCPR_CURL_USE_LIBPSL -DCPR_ENABLE_CURL_HTTP_ONLY -DCPR_ENABLE_SSL -DCPR_USE_SYSTEM_CURL -DCPR_USE_SYSTEM_LIB_PSL @CMakeFiles\\cpr.dir\\includes_CXX.rsp  -Wall -Wextra -Wpedantic -Werror -g -std=gnu++20 -o CMakeFiles\\cpr.dir\\multiperform.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cpr\\multiperform.cpp",
   "file": "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cpr/multiperform.cpp",
   "output": "_deps/cpr-build/cpr/CMakeFiles/cpr.dir/multiperform.cpp.obj"
 },

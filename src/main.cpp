@@ -22,7 +22,7 @@ void updateApp(string url, string name)
 
     cout << "Extracting..." << endl;
     try {
-        elz::extractZip(fullPath + ".zip", appDataPath + "games\\");
+        elz::extractZip(fullPath + ".zip", appDataPath + "games\\" + name);
     } catch(const exception& e) {
         cerr << "Error extracting file: " << e.what() << endl;
         return;

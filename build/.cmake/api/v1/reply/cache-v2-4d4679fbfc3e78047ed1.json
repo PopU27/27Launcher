@@ -38,18 +38,6 @@
 			"value" : "E:/rodgo/CodeProjects/27Launcher"
 		},
 		{
-			"name" : "BUILD_CURL_EXE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "BUILD_SHARED_LIBS",
 			"properties" : 
 			[
@@ -215,10 +203,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "e:/msys64/ucrt64/bin/g++.exe"
 		},
 		{
@@ -359,10 +347,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Full path to the compiler used for language <LANG>. Set by CMake during compiler detection on the first configure; users may override on the command line to select a specific toolchain."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "e:/msys64/ucrt64/bin/gcc.exe"
 		},
 		{
@@ -2079,31 +2067,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CURL_CA_BUNDLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "auto"
-		},
-		{
-			"name" : "CURL_CA_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "auto"
+			"value" : "ON"
 		},
 		{
 			"name" : "CURL_DIR",
@@ -2122,18 +2086,6 @@
 			"value" : "E:/msys64/ucrt64/lib/cmake/CURL"
 		},
 		{
-			"name" : "CURL_ENABLE_SSL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "CURL_USE_CMAKECONFIG",
 			"properties" : 
 			[
@@ -2144,18 +2096,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "CURL_USE_LIBPSL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "CURL_USE_PKGCONFIG",
@@ -2170,18 +2110,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "CURL_USE_SCHANNEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
 			"name" : "CURL_VERBOSE_LOGGING",
 			"properties" : 
 			[
@@ -2192,18 +2120,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "OFF"
-		},
-		{
-			"name" : "CURL_WINDOWS_SSPI",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "DETECT_SSL_BACKEND",
@@ -2302,18 +2218,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "FETCHCONTENT_SOURCE_DIR_ZLIB",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "When not empty, overrides where to find pre-populated content for zlib"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
 			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED",
 			"properties" : 
 			[
@@ -2332,18 +2236,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Enables UPDATE_DISCONNECTED behavior just for population of cpr"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED_ZLIB",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enables UPDATE_DISCONNECTED behavior just for population of zlib"
 				}
 			],
 			"type" : "BOOL",
@@ -2410,18 +2302,6 @@
 			"value" : "[E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake][v3.12.0()]"
 		},
 		{
-			"name" : "FNO_LTO_AVAILABLE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test FNO_LTO_AVAILABLE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "GIT_EXECUTABLE",
 			"properties" : 
 			[
@@ -2436,126 +2316,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "E:/Program Files/Git/cmd/git.exe"
-		},
-		{
-			"name" : "HAVE_ALIGNED_ALLOC",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have symbol aligned_alloc"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "HAVE_ATTRIBUTE_ALIGNED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_ATTRIBUTE_ALIGNED"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_ATTRIBUTE_VISIBILITY_HIDDEN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "HAVE_ATTRIBUTE_VISIBILITY_INTERNAL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "HAVE_AVX2_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_AVX2_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_AVX512VNNI_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_AVX512VNNI_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_AVX512_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_AVX512_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_BUILTIN_CTZ",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_BUILTIN_CTZ"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_BUILTIN_CTZLL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_BUILTIN_CTZLL"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_CASCADE_LAKE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_CASCADE_LAKE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
 		},
 		{
 			"name" : "HAVE_FSEEKO",
@@ -2582,30 +2342,6 @@
 			"value" : "1"
 		},
 		{
-			"name" : "HAVE_MASK_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_MASK_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_NO_INTERPOSITION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_NO_INTERPOSITION"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "HAVE_OFF64_T",
 			"properties" : 
 			[
@@ -2616,90 +2352,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
-		},
-		{
-			"name" : "HAVE_PCLMULQDQ_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_PCLMULQDQ_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_POSIX_MEMALIGN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have symbol posix_memalign"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "HAVE_PTRDIFF_T",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_PTRDIFF_T"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_SSE2_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_SSE2_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_SSE42CRC_INLINE_ASM",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_SSE42CRC_INLINE_ASM"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_SSE42CRC_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_SSE42CRC_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_SSSE3_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_SSSE3_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",
@@ -2738,42 +2390,6 @@
 			"value" : "1"
 		},
 		{
-			"name" : "HAVE_STRERROR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have function strerror"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_SYS_AUXV_H",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have include sys/auxv.h"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
-			"name" : "HAVE_SYS_SDT_H",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have include sys/sdt.h"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : ""
-		},
-		{
 			"name" : "HAVE_SYS_TYPES_H",
 			"properties" : 
 			[
@@ -2784,66 +2400,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "HAVE_THREAD_LOCAL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_THREAD_LOCAL"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_UNISTD_H",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have include unistd.h"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_VPCLMULQDQ_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_VPCLMULQDQ_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HAVE_XSAVE_INTRIN",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test HAVE_XSAVE_INTRIN"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
-			"name" : "HTTP_ONLY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
 		},
 		{
 			"name" : "INSTALL_BIN_DIR",
@@ -2918,22 +2474,6 @@
 			"value" : "lib/pkgconfig"
 		},
 		{
-			"name" : "INSTALL_UTILS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Copy minigzip and minideflate during install"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "LIB_EAY",
 			"properties" : 
 			[
@@ -2948,18 +2488,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "E:/msys64/ucrt64/lib/libcrypto.dll.a"
-		},
-		{
-			"name" : "MESON_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "MESON_PATH-NOTFOUND"
 		},
 		{
 			"name" : "MZ_BUILD_FUZZ_TESTS",
@@ -3152,18 +2680,6 @@
 			],
 			"type" : "PATH",
 			"value" : "E:/msys64/ucrt64/include"
-		},
-		{
-			"name" : "PKGCONFIG_INSTALL_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Installation directory for pkgconfig (.pc) files"
-				}
-			],
-			"type" : "PATH",
-			"value" : "lib/pkgconfig"
 		},
 		{
 			"name" : "PKG_CONFIG_ARGN",
@@ -8426,334 +7942,6 @@
 			"value" : "E:/msys64/ucrt64/bin/windeployqt.exe"
 		},
 		{
-			"name" : "WITH_AVX2",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with AVX2"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_AVX512",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with AVX512"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_AVX512VNNI",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with AVX512 VNNI extensions"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_BENCHMARKS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build test/benchmarks"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_BENCHMARK_APPS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build application benchmarks"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_CODE_COVERAGE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable code coverage reporting"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_FUZZERS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build test/fuzz"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_GTEST",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build gtest_zlib"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_GZFILEOP",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Compile with support for gzFile related functions"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_INFLATE_ALLOW_INVALID_DIST",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with zero fill for inflate invalid distances"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_INFLATE_STRICT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with strict inflate distance checking"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_MAINTAINER_WARNINGS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with project maintainer warnings"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_NATIVE_INSTRUCTIONS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Instruct the compiler to use the full instruction set on this host (gcc/clang -march=native)"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_NEW_STRATEGIES",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Use new strategies"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_OPTIM",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with optimisation"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_PCLMULQDQ",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with PCLMULQDQ"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_REDUCED_MEM",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Reduced memory usage for special cases (reduces performance)"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "WITH_SANITIZER",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable sanitizer support"
-				},
-				{
-					"name" : "STRINGS",
-					"value" : "Memory;Address;Undefined;Thread"
-				}
-			],
-			"type" : "STRING",
-			"value" : "AUTO"
-		},
-		{
-			"name" : "WITH_SSE2",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with SSE2"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_SSE42",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with SSE42"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_SSSE3",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with SSSE3"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_UNALIGNED",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Support unaligned reads on platforms that support it"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "WITH_VPCLMULQDQ",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build with VPCLMULQDQ"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "ZLIBNG_ENABLE_TESTS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Test zlib-ng specific API"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
 			"name" : "ZLIBNG_INCLUDE_DIRS",
 			"properties" : 
 			[
@@ -8776,30 +7964,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "ZLIBNG_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "ZLIB_COMPAT",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Compile with zlib compatible API"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "ZLIB_ENABLE_TESTS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Build test binaries"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "OFF"
 		},
 		{
 			"name" : "ZLIB_INCLUDE_DIR",
@@ -8848,22 +8012,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "E:/msys64/ucrt64/lib/libz.dll.a"
-		},
-		{
-			"name" : "ZLIB_SYMBOL_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Give this prefix to all publicly exported symbols.\nUseful when embedding into a larger library.\nDefault is no prefix (empty prefix)."
-				}
-			],
-			"type" : "STRING",
-			"value" : ""
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -12574,18 +11722,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "compile_result_unused",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Result of TRY_COMPILE"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "FALSE"
-		},
-		{
 			"name" : "cpr_BINARY_DIR",
 			"properties" : 
 			[
@@ -12876,42 +12012,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "E:/msys64/ucrt64/bin/../lib"
-		},
-		{
-			"name" : "zlib_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/rodgo/CodeProjects/27Launcher/build/_deps/zlib-build"
-		},
-		{
-			"name" : "zlib_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "zlib_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "E:/rodgo/CodeProjects/27Launcher/build/_deps/zlib-src"
 		}
 	],
 	"kind" : "cache",

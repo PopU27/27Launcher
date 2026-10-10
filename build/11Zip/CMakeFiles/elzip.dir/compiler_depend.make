@@ -598,13 +598,76 @@
   E:/rodgo/CodeProjects/27Launcher/11Zip/include/elzip/zipper.hpp
 
 11Zip/elzip_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake \
+  C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake \
@@ -625,15 +688,21 @@
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/new_throw.h:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/allocator.h:
 
 E:/msys64/ucrt64/include/_timeval.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
 
 11Zip/elzip_autogen/mocs_compilation.cpp:
 
 E:/msys64/ucrt64/include/_mingw_secapi.h:
 
 E:/msys64/ucrt64/include/_mingw.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_insert.h:
 
@@ -653,6 +722,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/fs_ops.h:
 
 E:/msys64/ucrt64/include/_mingw_stat64.h:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/array:
@@ -670,6 +741,8 @@ E:/rodgo/CodeProjects/27Launcher/11Zip/include/elzip/fswrapper.hpp:
 E:/msys64/ucrt64/include/c++/16.1.0/bits/align.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/memoryfwd.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/hash_bytes.h:
 
@@ -701,6 +774,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/codecvt.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream.tcc:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.tcc:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/fs_dir.h:
@@ -713,7 +788,13 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/functexcept.h:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_forced.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestCCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_init_exception.h:
 
@@ -738,6 +819,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/fstream.tcc:
 E:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/functional_hash.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake:
 
@@ -807,7 +890,11 @@ E:/msys64/ucrt64/include/c++/16.1.0/filesystem:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_base.h:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_cmp.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h:
 
@@ -820,6 +907,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc:
 E:/msys64/ucrt64/include/c++/16.1.0/bits/std_abs.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_except.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_throw.h:
 
@@ -865,6 +954,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/bits/utility.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/bits/vector.tcc:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/bits/version.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/cctype:
@@ -889,6 +980,10 @@ E:/msys64/ucrt64/include/c++/16.1.0/locale:
 
 E:/msys64/ucrt64/include/c++/16.1.0/cwchar:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-C-DetermineCompiler.cmake:
+
 E:/msys64/ucrt64/include/wctype.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/cwctype:
@@ -908,6 +1003,8 @@ E:/msys64/ucrt64/include/c++/16.1.0/ext/alloc_traits.h:
 E:/msys64/ucrt64/include/c++/16.1.0/ext/atomicity.h:
 
 E:/msys64/ucrt64/include/c++/16.1.0/ext/concurrence.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/ext/string_conversions.h:
 
@@ -957,7 +1054,11 @@ CMakeFiles/4.4.0-rc2/CMakeCCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/tuple:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
+
 E:/msys64/ucrt64/include/c++/16.1.0/type_traits:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/include/c++/16.1.0/typeinfo:
 
@@ -1013,6 +1114,8 @@ E:/msys64/ucrt64/include/ctype.h:
 
 E:/msys64/ucrt64/include/errno.h:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 E:/msys64/ucrt64/include/inttypes.h:
 
 E:/msys64/ucrt64/include/limits.h:
@@ -1042,6 +1145,10 @@ E:/msys64/ucrt64/include/signal.h:
 E:/msys64/ucrt64/include/stddef.h:
 
 E:/msys64/ucrt64/include/stdint.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in:
 
 E:/msys64/ucrt64/include/stdio.h:
 
@@ -1097,19 +1204,101 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake:
 
 E:/rodgo/CodeProjects/27Launcher/11Zip/src/zipper.cpp:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
 C:/Program\ Files/CMake/bin/cmake.exe:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCCompilerABI.c:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCLinker.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-C.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake:
 
