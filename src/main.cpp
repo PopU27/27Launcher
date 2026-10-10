@@ -1,6 +1,7 @@
 #include "main.h"
 #include "downloadLatestZip.h"
 #include "getAppDataPath.h"
+#include "SlidingStackedWidget.h"
 
 using namespace std;
 using namespace filesystem;
@@ -78,7 +79,10 @@ int main(int argc, char *argv[])
 
     // Set up the stacked widget
     auto *mainLayout = new QVBoxLayout(&mainWindow);
-    auto *stackedWidget = new QStackedWidget(&mainWindow);
+    auto *stackedWidget = new SlidingStackedWidget(&mainWindow);
+    stackedWidget->setSpeed(350);
+    stackedWidget->setEasingCurve(QEasingCurve::OutCubic);
+
     mainLayout->addWidget(stackedWidget);
 
     // --- TITLE PAGE ---
@@ -102,7 +106,7 @@ int main(int argc, char *argv[])
     QObject::connect(quit, &QPushButton::clicked, &mainWindow, &QWidget::close);
 
     QObject::connect(joatButton, &QPushButton::clicked, [stackedWidget]() {
-        stackedWidget->setCurrentIndex(2);
+        stackedWidget->slideToWidget(2, SlidingStackedWidget::LeftToRight);
     });
 
     // --- Update page ---
@@ -163,7 +167,7 @@ int main(int argc, char *argv[])
         playJoat->setEnabled(false);
 
         updateProgressBar->setValue(0);
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->slideToWidget(1, SlidingStackedWidget::LeftToRight);
 
         QThreadPool::globalInstance()->start([=]() {
             auto onProgressChange = [=](size_t downloaded, size_t total) {
@@ -177,7 +181,7 @@ int main(int argc, char *argv[])
             updateApp(joatApiUrl, "Jack-of-All-Trades", onProgressChange);
 
             QMetaObject::invokeMethod(updateJoat, [=]() {
-                stackedWidget->setCurrentIndex(2);
+                stackedWidget->slideToWidget(2, SlidingStackedWidget::RightToLeft);
                 updateJoat->setEnabled(true);
                 playJoat->setEnabled(true);
             }, QueuedConnection);
@@ -185,7 +189,7 @@ int main(int argc, char *argv[])
     });
 
     QObject::connect(backButtonJoat, &QPushButton::clicked, [=]() {
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->slideToWidget(0, SlidingStackedWidget::RightToLeft);
     });
 
     mainWindow.show();

@@ -434,6 +434,12 @@
 			"MU",
 			"UVLADIE3JM/moc_main.cpp",
 			null
+		],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.h",
+			"MU",
+			"UVLADIE3JM/moc_slidingStackedWidget.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -519,7 +525,12 @@
 			null
 		],
 		[ "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp", "MU", null ],
-		[ "E:/rodgo/CodeProjects/27Launcher/src/main.cpp", "MU", null ]
+		[ "E:/rodgo/CodeProjects/27Launcher/src/main.cpp", "MU", null ],
+		[
+			"E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

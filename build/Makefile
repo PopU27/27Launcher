@@ -164,6 +164,7 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
@@ -401,6 +402,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/slidingStackedWidget.obj: src/slidingStackedWidget.cpp.obj
+.PHONY : src/slidingStackedWidget.obj
+
+# target to build an object file
+src/slidingStackedWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj
+.PHONY : src/slidingStackedWidget.cpp.obj
+
+src/slidingStackedWidget.i: src/slidingStackedWidget.cpp.i
+.PHONY : src/slidingStackedWidget.i
+
+# target to preprocess a source file
+src/slidingStackedWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.i
+.PHONY : src/slidingStackedWidget.cpp.i
+
+src/slidingStackedWidget.s: src/slidingStackedWidget.cpp.s
+.PHONY : src/slidingStackedWidget.s
+
+# target to generate assembly for a file
+src/slidingStackedWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s
+.PHONY : src/slidingStackedWidget.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -437,6 +462,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/slidingStackedWidget.obj
+	@echo ... src/slidingStackedWidget.i
+	@echo ... src/slidingStackedWidget.s
 .PHONY : help
 
 
@@ -448,6 +476,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

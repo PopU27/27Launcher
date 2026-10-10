@@ -122,6 +122,431 @@
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake \
   C:/Program\ Files/CMake/share/cmake-4.4/Modules/SelectLibraryConfigurations.cmake \
+  E:/msys64/ucrt64/include/_mingw.h \
+  E:/msys64/ucrt64/include/_mingw_mac.h \
+  E:/msys64/ucrt64/include/_mingw_off_t.h \
+  E:/msys64/ucrt64/include/_mingw_secapi.h \
+  E:/msys64/ucrt64/include/_mingw_stat64.h \
+  E:/msys64/ucrt64/include/_mingw_stdarg.h \
+  E:/msys64/ucrt64/include/_timeval.h \
+  E:/msys64/ucrt64/include/assert.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/algorithm \
+  E:/msys64/ucrt64/include/c++/16.1.0/array \
+  E:/msys64/ucrt64/include/c++/16.1.0/atomic \
+  E:/msys64/ucrt64/include/c++/16.1.0/backward/auto_ptr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/backward/binders.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bit \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/align.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/alloc_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/allocated_ptr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/allocator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_base.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_wait.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_ios.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_ios.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/binders.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/char_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/charconv.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/chrono.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/chrono_io.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/concept_check.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/cpp_type_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_forced.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_init_exception.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/enable_special_members.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/erase_if.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/exception.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/exception_defines.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/exception_ptr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/functexcept.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/functional_hash.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/hash_bytes.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable_policy.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/intcmp.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ios_base.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/istream.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/iterator_concepts.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/list.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/localefwd.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/max_size_type.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/memory_resource.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/memoryfwd.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/move.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/nested_exception.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/new_allocator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/new_except.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/new_throw.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/node_handle.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_insert.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_print.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/parse_numbers.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/postypes.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/predefined_ops.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ptr_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/range_access.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algo.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algobase.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_base.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_cmp.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_uninitialized.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/refwrap.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr_atomic.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr_base.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/specfun.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/std_abs.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/std_function.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_except.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_throw.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_throwfwd.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algo.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algobase.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_bvector.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_construct.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_function.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_heap.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_types.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_list.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_map.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multimap.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multiset.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_numeric.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_pair.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_raw_storage_iter.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_set.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tempbuf.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tree.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_uninitialized.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_vector.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stream_iterator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf_iterator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/string_view.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/stringfwd.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/unique_ptr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_map.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_set.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator_args.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/utility.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/vector.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/bits/version.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/cassert \
+  E:/msys64/ucrt64/include/c++/16.1.0/cctype \
+  E:/msys64/ucrt64/include/c++/16.1.0/cerrno \
+  E:/msys64/ucrt64/include/c++/16.1.0/charconv \
+  E:/msys64/ucrt64/include/c++/16.1.0/chrono \
+  E:/msys64/ucrt64/include/c++/16.1.0/climits \
+  E:/msys64/ucrt64/include/c++/16.1.0/clocale \
+  E:/msys64/ucrt64/include/c++/16.1.0/cmath \
+  E:/msys64/ucrt64/include/c++/16.1.0/compare \
+  E:/msys64/ucrt64/include/c++/16.1.0/concepts \
+  E:/msys64/ucrt64/include/c++/16.1.0/cstddef \
+  E:/msys64/ucrt64/include/c++/16.1.0/cstdint \
+  E:/msys64/ucrt64/include/c++/16.1.0/cstdio \
+  E:/msys64/ucrt64/include/c++/16.1.0/cstdlib \
+  E:/msys64/ucrt64/include/c++/16.1.0/cstring \
+  E:/msys64/ucrt64/include/c++/16.1.0/ctime \
+  E:/msys64/ucrt64/include/c++/16.1.0/cwchar \
+  E:/msys64/ucrt64/include/c++/16.1.0/cwctype \
+  E:/msys64/ucrt64/include/c++/16.1.0/debug/assertions.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/debug/debug.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/exception \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/aligned_buffer.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/alloc_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/atomicity.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/concurrence.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/numeric_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/string_conversions.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ext/type_traits.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/format \
+  E:/msys64/ucrt64/include/c++/16.1.0/functional \
+  E:/msys64/ucrt64/include/c++/16.1.0/initializer_list \
+  E:/msys64/ucrt64/include/c++/16.1.0/ios \
+  E:/msys64/ucrt64/include/c++/16.1.0/iosfwd \
+  E:/msys64/ucrt64/include/c++/16.1.0/istream \
+  E:/msys64/ucrt64/include/c++/16.1.0/iterator \
+  E:/msys64/ucrt64/include/c++/16.1.0/limits \
+  E:/msys64/ucrt64/include/c++/16.1.0/list \
+  E:/msys64/ucrt64/include/c++/16.1.0/map \
+  E:/msys64/ucrt64/include/c++/16.1.0/memory \
+  E:/msys64/ucrt64/include/c++/16.1.0/new \
+  E:/msys64/ucrt64/include/c++/16.1.0/numeric \
+  E:/msys64/ucrt64/include/c++/16.1.0/optional \
+  E:/msys64/ucrt64/include/c++/16.1.0/ostream \
+  E:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/pstl/pstl_config.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/ratio \
+  E:/msys64/ucrt64/include/c++/16.1.0/set \
+  E:/msys64/ucrt64/include/c++/16.1.0/sstream \
+  E:/msys64/ucrt64/include/c++/16.1.0/stdexcept \
+  E:/msys64/ucrt64/include/c++/16.1.0/streambuf \
+  E:/msys64/ucrt64/include/c++/16.1.0/string \
+  E:/msys64/ucrt64/include/c++/16.1.0/string_view \
+  E:/msys64/ucrt64/include/c++/16.1.0/system_error \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/bessel_function.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/beta_function.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/ell_integral.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/exp_integral.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/gamma.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/hypergeometric.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/legendre_function.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/modified_bessel_func.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_hermite.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_laguerre.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/riemann_zeta.tcc \
+  E:/msys64/ucrt64/include/c++/16.1.0/tr1/special_function_util.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/tuple \
+  E:/msys64/ucrt64/include/c++/16.1.0/type_traits \
+  E:/msys64/ucrt64/include/c++/16.1.0/typeinfo \
+  E:/msys64/ucrt64/include/c++/16.1.0/unordered_map \
+  E:/msys64/ucrt64/include/c++/16.1.0/unordered_set \
+  E:/msys64/ucrt64/include/c++/16.1.0/utility \
+  E:/msys64/ucrt64/include/c++/16.1.0/variant \
+  E:/msys64/ucrt64/include/c++/16.1.0/vector \
+  E:/msys64/ucrt64/include/c++/16.1.0/version \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h \
+  E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+  E:/msys64/ucrt64/include/corecrt.h \
+  E:/msys64/ucrt64/include/corecrt_memory.h \
+  E:/msys64/ucrt64/include/corecrt_startup.h \
+  E:/msys64/ucrt64/include/corecrt_stdio_config.h \
+  E:/msys64/ucrt64/include/corecrt_wconio.h \
+  E:/msys64/ucrt64/include/corecrt_wctype.h \
+  E:/msys64/ucrt64/include/corecrt_wstdlib.h \
+  E:/msys64/ucrt64/include/crtdefs.h \
+  E:/msys64/ucrt64/include/ctype.h \
+  E:/msys64/ucrt64/include/errno.h \
+  E:/msys64/ucrt64/include/limits.h \
+  E:/msys64/ucrt64/include/locale.h \
+  E:/msys64/ucrt64/include/malloc.h \
+  E:/msys64/ucrt64/include/process.h \
+  E:/msys64/ucrt64/include/pthread.h \
+  E:/msys64/ucrt64/include/pthread_compat.h \
+  E:/msys64/ucrt64/include/pthread_signal.h \
+  E:/msys64/ucrt64/include/pthread_time.h \
+  E:/msys64/ucrt64/include/pthread_unistd.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/QEasingCurve \
+  E:/msys64/ucrt64/include/qt6/QtCore/QParallelAnimationGroup \
+  E:/msys64/ucrt64/include/qt6/QtCore/QPropertyAnimation \
+  E:/msys64/ucrt64/include/qt6/QtCore/q17memory.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20bit.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20functional.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20iterator.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20memory.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20type_traits.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q20utility.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q23type_traits.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/q23utility.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qabstractanimation.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qalgorithms.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qalloc.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qanimationgroup.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qanystringview.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qarraydata.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qarraydataops.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qarraydatapointer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qassert.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qatomic.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qatomic_cxx11.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbasicatomic.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbindingstorage.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbytearray.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbytearrayalgorithms.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbytearraylist.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qbytearrayview.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qchar.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcheckedint_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcompare.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcompare_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcomparehelpers.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcompilerdetection.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qconfig.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qconstructormacros.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcontainerfwd.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcontainerinfo.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcontainertools_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qcontiguouscache.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qdarwinhelpers.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qdatastream.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qdebug.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qeasingcurve.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qendian.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qexceptionhandling.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qflags.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qfloat16.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qforeach.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qfunctionaltools_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qfunctionpointer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qgenericatomic.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qglobal.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qglobalstatic.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qhash.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qhashfunctions.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qiodevicebase.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qiterable.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qiterator.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qlatin1stringview.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qline.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qlist.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qlogging.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmalloc.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmap.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmargins.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmath.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmetacontainer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qmetatype.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qminmax.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qnamespace.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qnumeric.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qobject.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qobject_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qobjectdefs.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qobjectdefs_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qoverload.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qpair.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qparallelanimationgroup.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qpoint.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qprocessordetection.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qpropertyanimation.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qrect.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qrefcount.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qscopedpointer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qscopeguard.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qset.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qshareddata.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qshareddata_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qsharedpointer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qsharedpointer_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qsize.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qspan.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstdlibdetection.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstring.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringalgorithms.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringbuilder.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringconverter.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringconverter_base.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringfwd.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringlist.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringmatcher.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringtokenizer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qstringview.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qswap.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qsysinfo.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qsystemdetection.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtaggedpointer.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtclasshelpermacros.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtconfiginclude.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtconfigmacros.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtcore-config.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtcoreexports.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtcoreglobal.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtdeprecationdefinitions.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtdeprecationmarkers.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtenvironmentvariables.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtextstream.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtformat_impl.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtmetamacros.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtnoop.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtpreprocessorsupport.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtresource.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qttranslation.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qttypetraits.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtversion.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtversionchecks.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtypeinfo.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qtypes.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qutf8stringview.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qvariant.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qvariantanimation.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qvarlengtharray.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qversiontagging.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qxptype_traits.h \
+  E:/msys64/ucrt64/include/qt6/QtCore/qyieldcpu.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qaction.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qbitmap.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qbrush.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qcolor.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qcursor.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qfont.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qfontinfo.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qfontmetrics.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qfontvariableaxis.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qicon.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qimage.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qkeysequence.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qpaintdevice.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qpalette.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qpixelformat.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qpixmap.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qpolygon.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qregion.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qrgb.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qrgba64.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qtgui-config.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qtguiexports.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qtguiglobal.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qtransform.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs.h \
+  E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs_win.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/QStackedWidget \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qframe.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qsizepolicy.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qstackedwidget.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgets-config.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgetsexports.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgetsglobal.h \
+  E:/msys64/ucrt64/include/qt6/QtWidgets/qwidget.h \
+  E:/msys64/ucrt64/include/sched.h \
+  E:/msys64/ucrt64/include/sec_api/stdio_s.h \
+  E:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  E:/msys64/ucrt64/include/sec_api/string_s.h \
+  E:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
+  E:/msys64/ucrt64/include/sec_api/wchar_s.h \
+  E:/msys64/ucrt64/include/sec_api/wconio_s.h \
+  E:/msys64/ucrt64/include/signal.h \
+  E:/msys64/ucrt64/include/stdarg.h \
+  E:/msys64/ucrt64/include/stddef.h \
+  E:/msys64/ucrt64/include/stdint.h \
+  E:/msys64/ucrt64/include/stdio.h \
+  E:/msys64/ucrt64/include/stdlib.h \
+  E:/msys64/ucrt64/include/string.h \
+  E:/msys64/ucrt64/include/swprintf.inl \
+  E:/msys64/ucrt64/include/sys/timeb.h \
+  E:/msys64/ucrt64/include/sys/types.h \
+  E:/msys64/ucrt64/include/time.h \
+  E:/msys64/ucrt64/include/vadefs.h \
+  E:/msys64/ucrt64/include/wchar.h \
+  E:/msys64/ucrt64/include/wctype.h \
   E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake \
   E:/msys64/ucrt64/lib/cmake/CURL/CURLConfigVersion.cmake \
   E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets-release.cmake \
@@ -296,10 +721,13 @@
   E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
   E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+  E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h \
+  E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h \
   E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake \
   E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake \
   E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake \
   E:/rodgo/CodeProjects/27Launcher/CMakeLists.txt \
+  27Launcher_autogen/moc_predefs.h \
   CMakeFiles/4.4.0-rc2/CMakeCXXCompiler.cmake \
   CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake \
   CMakeFiles/4.4.0-rc2/CMakeSystem.cmake \
@@ -313,30 +741,34 @@
   E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp \
   E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h \
   E:/rodgo/CodeProjects/27Launcher/src/main.cpp \
-  E:/rodgo/CodeProjects/27Launcher/src/main.h
+  E:/rodgo/CodeProjects/27Launcher/src/main.h \
+  E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp \
+  E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.h
 
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitIncludeInfo.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcontiguouscache.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:
 
 C:/Program\ Files/CMake/bin/cmake.exe:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/cwchar:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/MSVC-DetermineCompiler.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qstringmatcher.h:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake:
 
@@ -346,41 +778,63 @@ E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseLibraryArchitecture.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCXXInformation.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
-CMakeFiles/fc-tmp/cpr/download.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qpropertyanimation.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_laguerre.tcc:
+
+CMakeFiles/fc-tmp/cpr/download.cmake:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/stdexcept:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
 
+E:/msys64/ucrt64/include/sec_api/stdlib_s.h:
+
+E:/msys64/ucrt64/include/pthread_signal.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeCompilerIdDetection.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qendian.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qttranslation.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringview.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtGui/qaction.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.tcc:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qatomic.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multimap.h:
 
 E:/msys64/ucrt64/lib/cmake/CURL/FindLibssh2.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerSupport.cmake:
 
-E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineRCCompiler.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/binders.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
@@ -388,11 +842,25 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/bits/allocator.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/chrono_io.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algo.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/functional:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qpolygon.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeParseImplicitLinkInfo.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/list.tcc:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake:
 
@@ -403,6 +871,8 @@ E:/msys64/ucrt64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake:
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeMinGWFindMake.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/istream.tcc:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
@@ -416,21 +886,37 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeSystem.cmake.in:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/version:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qvariantanimation.h:
+
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargetsPrecheck.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qlatin1stringview.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/FindWrapAtomic.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_types.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtmetamacros.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/new_except.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/variant:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qsystemdetection.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qconfig.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
 
@@ -444,7 +930,13 @@ E:/msys64/ucrt64/lib/cmake/CURL/FindBrotli.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPkgConfig.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qcompilerdetection.h:
+
+E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/special_function_util.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
 
@@ -456,9 +948,15 @@ E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmak
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qnamespace.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/system_error:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/shared_internal_commands.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CheckLibraryExists.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qforeach.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/CheckIncludeFileCXX.cmake:
 
@@ -466,37 +964,43 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Borland-DetermineCompil
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/ADSP-DetermineCompiler.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+E:/msys64/ucrt64/include/qt6/QtGui/qbrush.h:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qmath.h:
+
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeInspectCXXLinker.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/string_conversions.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindVulkan.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qstringconverter_base.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtaggedpointer.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-FindBinUtils.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_insert.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake:
 
@@ -504,17 +1008,23 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Intel-DetermineCompiler.cmake:
 
 E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qfunctionaltools_impl.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_throw.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/_mingw_stdarg.h:
+
 E:/msys64/ucrt64/lib/cmake/CURL/CURLConfigVersion.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/map:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
 
@@ -522,29 +1032,53 @@ E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_numeric_defs.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qalloc.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qpixelformat.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PathScale-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/q20memory.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/PellesC-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/typeinfo:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Renesas-DetermineCompiler.cmake:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_util.h:
 
-C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake:
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/SCO-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TI-DetermineCompiler.cmake:
 
+C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qsharedpointer.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/TIClang-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_wait.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Tasking-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qsysinfo.h:
+
+E:/msys64/ucrt64/include/ctype.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qflags.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/Watcom-DetermineCompiler.cmake:
+
+E:/msys64/ucrt64/include/sec_api/stdio_s.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake:
 
@@ -552,11 +1086,17 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XL-CXX-DetermineCompile
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qtextstream.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/hash_bytes.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/PatchInfo.txt.in:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/RepositoryInfo.txt.in:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_init_exception.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
 
@@ -566,17 +1106,21 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/gitclone.cmake.i
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/gitupdate.cmake.in:
 
+E:/msys64/ucrt64/include/c++/16.1.0/chrono:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbytearrayview.h:
+
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/ExternalProject/stepscript.cmake.in:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qanystringview.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindCURL.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qrefcount.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindGit.cmake:
 
@@ -588,25 +1132,45 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cm
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/q23utility.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindThreads.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qglobalstatic.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/FindZLIB.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/GNUInstallDirs.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/ext/alloc_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/initializer_list:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qobject_impl.h:
 
 E:/msys64/ucrt64/lib/cmake/CURL/FindLibidn2.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/modified_bessel_func.tcc:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCXXLinkerInformation.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qfontvariableaxis.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qanimationgroup.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/cxxabi_forced.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:
 
@@ -614,61 +1178,841 @@ C:/Program\ Files/CMake/share/cmake-4.4/Modules/Internal/FeatureTesting.cmake:
 
 E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Linker/GNU-CXX.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake:
 
+E:/msys64/ucrt64/include/c++/16.1.0/cstdio:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/iterator:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qarraydatapointer.h:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qsharedpointer_impl.h:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/memory:
 
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake:
 
+E:/msys64/ucrt64/include/qt6/QtCore/qmap.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/gamma.tcc:
+
 C:/Program\ Files/CMake/share/cmake-4.4/Modules/SelectLibraryConfigurations.cmake:
 
-E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake:
+E:/msys64/ucrt64/include/_mingw.h:
 
-CMakeFiles/fc-tmp/cpr/patch.cmake:
+E:/msys64/ucrt64/include/time.h:
 
-E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake:
+E:/msys64/ucrt64/include/qt6/QtCore/qtypes.h:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
+E:/msys64/ucrt64/include/_mingw_mac.h:
 
-E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets-release.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
 
-E:/msys64/ucrt64/lib/cmake/CURL/FindLibpsl.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/bits/std_function.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/climits:
+
+E:/msys64/ucrt64/include/_mingw_off_t.h:
+
+E:/msys64/ucrt64/include/_mingw_secapi.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stream_iterator.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
+
+E:/msys64/ucrt64/include/_mingw_stat64.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstdlibdetection.h:
+
+E:/msys64/ucrt64/include/_timeval.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
+
+E:/msys64/ucrt64/include/assert.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/algorithm:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cstdlib:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qhash.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtcore-config.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/iterator_concepts.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/array:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtversion.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/atomic:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_uninitialized.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/backward/auto_ptr.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/backward/binders.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bit:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/algorithmfwd.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/beta_function.tcc:
+
+E:/rodgo/CodeProjects/27Launcher/src/main.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/align.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/alloc_traits.h:
+
+E:/msys64/ucrt64/include/corecrt_wctype.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/allocated_ptr.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtdeprecationmarkers.h:
+
+E:/rodgo/CodeProjects/27Launcher/CMakeLists.txt:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_base.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_lockfree_defines.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qline.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_ios.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ratio:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_ios.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/basic_string.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_throwfwd.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cassert:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/char_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/charconv.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qspan.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/chrono.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qarraydata.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qbitmap.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/concept_check.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/cpp_type_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/enable_special_members.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/erase_if.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/exception.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/exception_defines.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/bessel_function.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/exception_ptr.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/functexcept.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qhashfunctions.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/uniform_int_dist.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/functional_hash.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/requires_hosted.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qparallelanimationgroup.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable_policy.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/intcmp.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/invoke.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/string:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ios_base.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qlogging.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/nested_exception.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_classes.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algo.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/locale_facets.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/localefwd.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/ell_integral.tcc:
+
+E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/max_size_type.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/memory_resource.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/memoryfwd.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qiterable.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/move.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/new_allocator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/hypergeometric.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf_iterator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/new_throw.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/node_handle.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream.tcc:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q20bit.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ostream_print.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/parse_numbers.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/postypes.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/predefined_ops.h:
+
+E:/msys64/ucrt64/include/corecrt_wstdlib.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q20iterator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ptr_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/range_access.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_algobase.h:
+
+E:/msys64/ucrt64/include/corecrt_memory.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_base.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_cmp.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/atomicity.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/ranges_uninitialized.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/refwrap.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr_atomic.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cmath:
+
+CMakeFiles/fc-tmp/cpr/cpr-gitupdate.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/shared_ptr_base.h:
+
+CMakeFiles/4.4.0-rc2/CMakeSystem.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/specfun.h:
+
+E:/msys64/ucrt64/include/pthread_unistd.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qatomic_cxx11.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/std_abs.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stdexcept_except.h:
+
+E:/msys64/ucrt64/lib/cmake/CURL/FindNGHTTP3.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_algobase.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_bvector.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
+
+E:/msys64/ucrt64/include/string.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_construct.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_function.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_heap.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_iterator_base_funcs.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_list.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ios:
+
+E:/msys64/ucrt64/include/wctype.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cwctype:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_map.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs_win.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multiset.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_numeric.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tempbuf.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_pair.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringbuilder.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_raw_storage_iter.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_set.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tree.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringconverter.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stl_vector.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/streambuf.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/string_view.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/stringfwd.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qexceptionhandling.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/numeric_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/unique_ptr.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/format:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cerrno:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_map.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/ctype_base.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_set.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtypeinfo.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qxptype_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/riemann_zeta.tcc:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtresource.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/uses_allocator_args.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/utility.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qdebug.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/vector.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/bits/version.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qfloat16.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cctype:
+
+E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qvariant.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/charconv:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qsize.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtFeatureCommon.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/clocale:
+
+E:/msys64/ucrt64/include/c++/16.1.0/concepts:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/poly_hermite.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/compare:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cstdint:
+
+E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp:
+
+E:/msys64/ucrt64/include/c++/16.1.0/cstddef:
 
 E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
 
 E:/msys64/ucrt64/lib/cmake/CURL/FindNGHTTP2.cmake:
 
-E:/msys64/ucrt64/lib/cmake/CURL/FindNGHTTP3.cmake:
+E:/msys64/ucrt64/include/c++/16.1.0/cstring:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ctime:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtversionchecks.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/debug/assertions.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/debug/debug.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/exception:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/aligned_buffer.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/concurrence.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ext/type_traits.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcontainerinfo.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/iosfwd:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/exp_integral.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/istream:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/limits:
+
+E:/msys64/ucrt64/include/c++/16.1.0/list:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/new:
+
+E:/msys64/ucrt64/include/c++/16.1.0/numeric:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qversiontagging.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/optional:
+
+E:/msys64/ucrt64/include/c++/16.1.0/ostream:
+
+E:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/pstl/pstl_config.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/set:
+
+E:/msys64/ucrt64/include/c++/16.1.0/sstream:
+
+E:/msys64/ucrt64/include/c++/16.1.0/unordered_map:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtdeprecationdefinitions.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/c++/16.1.0/streambuf:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtformat_impl.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/string_view:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qiterator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tr1/legendre_function.tcc:
+
+E:/msys64/ucrt64/include/c++/16.1.0/tuple:
+
+E:/msys64/ucrt64/include/c++/16.1.0/type_traits:
+
+E:/msys64/ucrt64/include/c++/16.1.0/unordered_set:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q23type_traits.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/utility:
+
+E:/msys64/ucrt64/include/c++/16.1.0/vector:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qrect.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++allocator.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++config.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/c++locale.h:
+
+E:/msys64/ucrt64/include/pthread_compat.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/error_constants.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr-default.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/gthr.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbasicatomic.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qicon.h:
+
+E:/msys64/ucrt64/include/c++/16.1.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q20functional.h:
+
+E:/msys64/ucrt64/include/corecrt.h:
+
+E:/msys64/ucrt64/include/corecrt_startup.h:
+
+E:/msys64/ucrt64/include/malloc.h:
+
+E:/msys64/ucrt64/include/corecrt_stdio_config.h:
+
+E:/msys64/ucrt64/include/corecrt_wconio.h:
+
+E:/msys64/ucrt64/include/crtdefs.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/errno.h:
+
+E:/msys64/ucrt64/include/limits.h:
+
+E:/msys64/ucrt64/include/locale.h:
+
+E:/msys64/ucrt64/include/process.h:
+
+E:/msys64/ucrt64/include/pthread.h:
+
+E:/msys64/ucrt64/include/pthread_time.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/QEasingCurve:
+
+E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/QParallelAnimationGroup:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qmetacontainer.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/QPropertyAnimation:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q17memory.h:
+
+E:/msys64/ucrt64/include/sec_api/wconio_s.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q20type_traits.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/Qt6TargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtconfiginclude.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/q20utility.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qobjectdefs_impl.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qabstractanimation.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtnoop.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qoverload.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qalgorithms.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qarraydataops.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qswap.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qtgui-config.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qassert.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbindingstorage.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbytearray.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbytearrayalgorithms.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qbytearraylist.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qchar.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcheckedint_impl.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcompare.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcompare_impl.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcomparehelpers.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qconstructormacros.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcontainerfwd.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qscopeguard.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qcontainertools_impl.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qdarwinhelpers.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qdatastream.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qeasingcurve.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qfunctionpointer.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qgenericatomic.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qglobal.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qpixmap.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qiodevicebase.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qlist.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qmalloc.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qmargins.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qmetatype.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qshareddata.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qminmax.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qnumeric.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qobject.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qobjectdefs.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qpair.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qpoint.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qprocessordetection.h:
+
+E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qscopedpointer.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qset.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qshareddata_impl.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstring.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringalgorithms.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringfwd.h:
+
+E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringlist.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qstringtokenizer.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtclasshelpermacros.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtconfigmacros.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtcoreexports.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtcoreglobal.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtenvironmentvariables.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qtpreprocessorsupport.h:
+
+E:/msys64/ucrt64/include/wchar.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qttypetraits.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qutf8stringview.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qvarlengtharray.h:
+
+E:/msys64/ucrt64/include/qt6/QtCore/qyieldcpu.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qcolor.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qcursor.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qfont.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qfontinfo.h:
+
+E:/msys64/ucrt64/include/sec_api/string_s.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qfontmetrics.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qimage.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qkeysequence.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qpaintdevice.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qpalette.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qregion.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qrgb.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qrgba64.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qtguiexports.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qtguiglobal.h:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qtransform.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
+
+E:/msys64/ucrt64/include/qt6/QtGui/qwindowdefs.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/QStackedWidget:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qframe.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qsizepolicy.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qstackedwidget.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgets-config.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgetsexports.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qtwidgetsglobal.h:
+
+E:/msys64/ucrt64/include/qt6/QtWidgets/qwidget.h:
+
+E:/msys64/ucrt64/include/sched.h:
+
+E:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
+
+E:/msys64/ucrt64/include/sec_api/wchar_s.h:
+
+E:/msys64/ucrt64/include/signal.h:
+
+E:/msys64/ucrt64/include/stdarg.h:
+
+E:/msys64/ucrt64/include/stddef.h:
+
+E:/msys64/ucrt64/include/stdint.h:
+
+E:/msys64/ucrt64/include/stdio.h:
+
+E:/msys64/ucrt64/include/stdlib.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
+
+E:/msys64/ucrt64/include/swprintf.inl:
+
+E:/msys64/ucrt64/include/sys/timeb.h:
+
+E:/msys64/ucrt64/include/sys/types.h:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
+
+E:/msys64/ucrt64/include/vadefs.h:
+
+E:/msys64/ucrt64/lib/cmake/CURL/CURLConfig.cmake:
+
+E:/msys64/ucrt64/lib/cmake/CURL/CURLTargets-release.cmake:
+
+E:/msys64/ucrt64/lib/cmake/CURL/FindLibpsl.cmake:
 
 E:/msys64/ucrt64/lib/cmake/CURL/FindNGTCP2.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
 E:/msys64/ucrt64/lib/cmake/CURL/FindZstd.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/FindWrapAtomic.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/Qt6Config.cmake:
 
@@ -682,17 +2026,7 @@ E:/msys64/ucrt64/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/Qt6Targets.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/Qt6TargetsPrecheck.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6/QtFeature.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtInstallPaths.cmake:
 
@@ -700,69 +2034,53 @@ E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake:
 
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
 
-E:/rodgo/CodeProjects/27Launcher/src/main.cpp:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreTargetsPrecheck.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:
 
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake:
 
 E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
+CMakeFiles/fc-tmp/cpr/patch.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicToolHelpers.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
@@ -770,37 +2088,25 @@ E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Core/Qt6CoreVersionlessAliasTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargetsPrecheck.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointMinGW32Target.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargetsPrecheck.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateVersionlessAliasTargets.cmake:
 
@@ -808,7 +2114,11 @@ E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:
 
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
 
@@ -816,31 +2126,21 @@ E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiTargetsPrecheck.cmake:
 
-CMakeFiles/fc-tmp/cpr/cpr-gitupdate.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6GuiVersionlessAliasTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QGifPluginTargetsPrecheck.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QICOPluginTargetsPrecheck.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargetsPrecheck.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
@@ -848,19 +2148,13 @@ E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargetsPrecheck.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargetsPrecheck.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake:
 
@@ -878,13 +2172,9 @@ E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdeb
 
 E:/msys64/ucrt64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargetsPrecheck.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake:
-
 E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
@@ -892,19 +2182,17 @@ E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargetsPrecheck.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargetsPrecheck.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:
 
-E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake:
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake:
 
@@ -912,13 +2200,15 @@ E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsTargetsPrecheck.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
+E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
+
+E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
+
 E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
 CMakeFiles/fc-tmp/cpr/cpr-gitclone.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
-
-E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
 
 E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake:
 
@@ -926,18 +2216,18 @@ E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
-E:/msys64/ucrt64/share/cmake/nlohmann_json/nlohmann_jsonTargets.cmake:
+E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h:
 
-E:/rodgo/CodeProjects/27Launcher/CMakeLists.txt:
+27Launcher_autogen/moc_predefs.h:
 
 CMakeFiles/4.4.0-rc2/CMakeCXXCompiler.cmake:
 
 CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake:
 
-CMakeFiles/4.4.0-rc2/CMakeSystem.cmake:
-
 CMakeFiles/fc-tmp/cpr/update.cmake:
+
+E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp:
 
 E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h:
 
-E:/rodgo/CodeProjects/27Launcher/src/main.h:
+E:/rodgo/CodeProjects/27Launcher/src/main.cpp:

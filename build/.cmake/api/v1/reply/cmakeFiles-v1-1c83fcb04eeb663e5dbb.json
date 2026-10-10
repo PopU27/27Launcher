@@ -1,4 +1,39 @@
 {
+	"globsDependent" : 
+	[
+		{
+			"expression" : "E:/rodgo/CodeProjects/27Launcher/src/*.c",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "E:/rodgo/CodeProjects/27Launcher/src/*.cpp",
+			"paths" : 
+			[
+				"E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp",
+				"E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp",
+				"E:/rodgo/CodeProjects/27Launcher/src/main.cpp",
+				"E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "E:/rodgo/CodeProjects/27Launcher/src/*.h",
+			"paths" : 
+			[
+				"E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h",
+				"E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h",
+				"E:/rodgo/CodeProjects/27Launcher/src/main.h",
+				"E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "E:/rodgo/CodeProjects/27Launcher/src/*.hpp",
+			"paths" : [],
+			"recurse" : true
+		}
+	],
 	"inputs" : 
 	[
 		{

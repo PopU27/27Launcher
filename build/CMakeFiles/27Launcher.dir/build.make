@@ -91,26 +91,11 @@ CMakeFiles/27Launcher.dir/resources.rc.obj: E:/rodgo/CodeProjects/27Launcher/res
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object CMakeFiles/27Launcher.dir/resources.rc.obj"
 	E:\msys64\ucrt64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) E:\rodgo\CodeProjects\27Launcher\resources.rc CMakeFiles\27Launcher.dir\resources.rc.obj
 
-CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
-CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
-CMakeFiles/27Launcher.dir/src/main.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/main.cpp
-CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/27Launcher.dir/src/main.cpp.obj"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/main.cpp.obj -MF CMakeFiles\27Launcher.dir\src\main.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\main.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\main.cpp
-
-CMakeFiles/27Launcher.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/27Launcher.dir/src/main.cpp.i"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\rodgo\CodeProjects\27Launcher\src\main.cpp > CMakeFiles\27Launcher.dir\src\main.cpp.i
-
-CMakeFiles/27Launcher.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/main.cpp.s"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\main.cpp -o CMakeFiles\27Launcher.dir\src\main.cpp.s
-
 CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
 CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
 CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp
 CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
 	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj -MF CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\downloadLatestZip.cpp
 
 CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.i: cmake_force
@@ -125,7 +110,7 @@ CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: CMakeFiles/27Launcher.dir/
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
 	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj -MF CMakeFiles\27Launcher.dir\src\getAppDataPath.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\getAppDataPath.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\getAppDataPath.cpp
 
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.i: cmake_force
@@ -136,22 +121,54 @@ CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.s"
 	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\getAppDataPath.cpp -o CMakeFiles\27Launcher.dir\src\getAppDataPath.cpp.s
 
+CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
+CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
+CMakeFiles/27Launcher.dir/src/main.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/main.cpp
+CMakeFiles/27Launcher.dir/src/main.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/27Launcher.dir/src/main.cpp.obj"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/main.cpp.obj -MF CMakeFiles\27Launcher.dir\src\main.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\main.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\main.cpp
+
+CMakeFiles/27Launcher.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/27Launcher.dir/src/main.cpp.i"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\rodgo\CodeProjects\27Launcher\src\main.cpp > CMakeFiles\27Launcher.dir\src\main.cpp.i
+
+CMakeFiles/27Launcher.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/main.cpp.s"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\main.cpp -o CMakeFiles\27Launcher.dir\src\main.cpp.s
+
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj -MF CMakeFiles\27Launcher.dir\src\slidingStackedWidget.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\slidingStackedWidget.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\slidingStackedWidget.cpp
+
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.i"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\rodgo\CodeProjects\27Launcher\src\slidingStackedWidget.cpp > CMakeFiles\27Launcher.dir\src\slidingStackedWidget.cpp.i
+
+CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\slidingStackedWidget.cpp -o CMakeFiles\27Launcher.dir\src\slidingStackedWidget.cpp.s
+
 # Object files for target 27Launcher
 27Launcher_OBJECTS = \
 "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/27Launcher.dir/resources.rc.obj" \
-"CMakeFiles/27Launcher.dir/src/main.cpp.obj" \
 "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj" \
-"CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj"
+"CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj" \
+"CMakeFiles/27Launcher.dir/src/main.cpp.obj" \
+"CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj"
 
 # External object files for target 27Launcher
 27Launcher_EXTERNAL_OBJECTS =
 
 27Launcher.exe: CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/resources.rc.obj
-27Launcher.exe: CMakeFiles/27Launcher.dir/src/main.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj
+27Launcher.exe: CMakeFiles/27Launcher.dir/src/main.cpp.obj
+27Launcher.exe: CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/build.make
 27Launcher.exe: E:/msys64/ucrt64/lib/libQt6Widgets.dll.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libcurl.dll.a
@@ -165,7 +182,7 @@ CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.s: cmake_force
 27Launcher.exe: CMakeFiles/27Launcher.dir/linkLibs.rsp
 27Launcher.exe: CMakeFiles/27Launcher.dir/objects1.rsp
 27Launcher.exe: CMakeFiles/27Launcher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable 27Launcher.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable 27Launcher.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\27Launcher.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

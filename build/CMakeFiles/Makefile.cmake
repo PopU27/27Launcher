@@ -351,6 +351,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/4.4.0-rc2/CMakeSystem.cmake"
+  "CMakeFiles/VerifyGlobs.cmake"
+  "CMakeFiles/cmake.verify_globs"
   "CMakeFiles/fc-tmp/cpr/cpr-gitclone.cmake"
   "CMakeFiles/fc-tmp/cpr/cpr-gitupdate.cmake"
   "CMakeFiles/fc-tmp/cpr/download.cmake"

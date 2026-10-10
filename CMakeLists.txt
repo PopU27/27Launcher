@@ -32,15 +32,16 @@ qt_standard_project_setup()
 
 add_subdirectory(11Zip)
 
-add_executable(27Launcher #WIN32 - include this before deploying
-    resources.rc
-    src/main.cpp
-    src/downloadLatestZip.cpp
-    src/getAppDataPath.cpp
+file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS 
+    "src/*.cpp"
+    "src/*.c"
+    "src/*.hpp"
+    "src/*.h"
 )
 
-target_include_directories(27Launcher PRIVATE
-    
+add_executable(27Launcher #WIN32 #- include this before deploying
+    resources.rc
+    ${SOURCE_FILES}
 )
 
 target_link_libraries(27Launcher PRIVATE

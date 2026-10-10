@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj.d"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj"
   "CMakeFiles/27Launcher.dir/src/main.cpp.obj.d"
+  "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj"
+  "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj.d"
   "27Launcher_autogen"
   "CMakeFiles/27Launcher_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/27Launcher_autogen.dir/ParseCache.txt"
