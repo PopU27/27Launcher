@@ -15,7 +15,8 @@ int downloadLatestZip(const string& apiUrl, const string& name, function<void(si
         Header{
             {"User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) 27Launcher/1.0"},
             {"Accept", "application/vnd.github+json"},
-        }
+        },
+        VerifySsl{false}
     );
 
     if (apiResponse.status_code != 200) {
@@ -76,6 +77,7 @@ int downloadLatestZip(const string& apiUrl, const string& name, function<void(si
     Response downloadResponse = Get(
         Url{downloadUrl},
         Redirect{true},
+        VerifySsl{false},
         WriteCallback{[&file](const string_view data, intptr_t userdata) -> bool {
             file.write(data.data(), data.size());
             return true;

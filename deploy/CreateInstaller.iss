@@ -3,7 +3,7 @@
 ; Non-commercial use only
 
 #define MyAppName "27Launcher"
-#define MyAppVersion "0.1"
+#define MyAppVersion "0.1.3"
 #define MyAppPublisher "PopU27"
 #define MyAppURL "https://github.com/PopU27/27Launcher"
 #define MyAppExeName "27Launcher.exe"
@@ -46,6 +46,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 Source: "E:\rodgo\CodeProjects\27Launcher\build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\msys64\ucrt64\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\msys64\ucrt64\etc\ssl\certs\ca-bundle.crt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

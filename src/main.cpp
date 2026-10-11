@@ -9,8 +9,14 @@ using namespace Qt;
 
 const string appDataPath = getAppDataPath() + "\\PopU27\\27Launcher\\";
 
+// Updates the launcher
+void updateLauncher(string url, function<void(size_t, size_t)> progressCallback)
+{
+    
+}
+
 // Downloads .zip file from url and saves to the dir
-void updateApp(string url, string name, function<void(size_t, size_t)> progressCallback)
+void updateGame(string url, string name, function<void(size_t, size_t)> progressCallback)
 {
     string fullPath = appDataPath + "games\\" + name;
 
@@ -178,7 +184,7 @@ int main(int argc, char *argv[])
                 }, Qt::QueuedConnection);
             };
 
-            updateApp(joatApiUrl, "Jack-of-All-Trades", onProgressChange);
+            updateGame(joatApiUrl, "Jack-of-All-Trades", onProgressChange);
 
             QMetaObject::invokeMethod(updateJoat, [=]() {
                 stackedWidget->slideToWidget(2, SlidingStackedWidget::RightToLeft);
