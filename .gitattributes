@@ -2,3 +2,4 @@
 * text=auto
 11Zip/* linguist-vendored=true
 build/** linguist-vendored=true
+deploy/** linguist-vendored=true

@@ -44,7 +44,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\rodgo\CodeProjects\27Launcher\build\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\rodgo\CodeProjects\27Launcher\build\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+
 Source: "E:\msys64\ucrt64\bin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "E:\msys64\ucrt64\etc\ssl\certs\ca-bundle.crt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
