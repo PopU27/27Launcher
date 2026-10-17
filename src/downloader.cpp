@@ -1,10 +1,60 @@
-#include "downloadLatestZip.h"
+#include "downloader.h"
 #include "getAppDataPath.h"
 
 using namespace std;
 using namespace cpr;
 using namespace filesystem;
 using namespace nlohmann;
+
+int downloadAppUpdate(const string& url, const string& dir, function<void(size_t, size_t)> progressCallback)
+{
+    path targetDir(dir);
+    if (targetDir.has_parent_path()) {
+        create_directories(targetDir.parent_path());
+    }
+
+    path urlPath(url);
+    path filePath = targetDir / urlPath.filename();
+    create_directories(filePath.parent_path());
+    
+    ofstream file(filePath, ios::binary);
+    if (!file.is_open()) {
+        cerr << "Failed to create target file at: " << filePath << endl;
+        return 1;
+    }
+
+    cout << "Downloading update from: " << url << endl;
+
+    Response downloadResponse = Get(
+        Url{url},
+        Redirect{true},
+        VerifySsl{false},
+        WriteCallback{[&file](const string_view data, intptr_t userdata) -> bool {
+            file.write(data.data(), data.size());
+            return true;
+        }},
+
+        ProgressCallback{[progressCallback](cpr_off_t downloadTotal, cpr_off_t downloadNow, 
+                                           cpr_off_t uploadTotal, cpr_off_t uploadNow, 
+                                           intptr_t userdata) -> bool {
+            if (progressCallback && downloadTotal > 0) {
+                progressCallback(static_cast<size_t>(downloadNow), static_cast<size_t>(downloadTotal));
+            }
+            return true; 
+        }}
+    );
+
+    file.close();
+
+    if (downloadResponse.status_code == 200) {
+        cout << "Download complete: " << dir << endl;
+        return 0;
+    } else {
+        cerr << "Download failed! HTTP Status: " << downloadResponse.status_code << endl;
+        remove(filePath);
+        return 1;
+    }
+}
 
 int downloadLatestZip(const string& apiUrl, const string& name, function<void(size_t, size_t)> progressCallback)
 {   
@@ -28,7 +78,7 @@ int downloadLatestZip(const string& apiUrl, const string& name, function<void(si
     string downloadUrl = "";
 
     // Gets the url to download by parsing the json from the get
-     try {
+    try {
         auto json_array = json::parse(apiResponse.text);
         for (const auto& item : json_array) {
             string name = item["name"].get<string>();
@@ -100,7 +150,7 @@ int downloadLatestZip(const string& apiUrl, const string& name, function<void(si
         return 0;
     } else {
         cerr << "Download failed! HTTP Status: " << downloadResponse.status_code << endl;
-        remove(path.string().c_str());
+        remove(path);
         return 1;
     }
 }

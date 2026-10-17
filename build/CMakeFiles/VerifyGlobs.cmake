@@ -29,7 +29,7 @@ endif()
 # SOURCE_FILES at CMakeLists.txt:35 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "E:/rodgo/CodeProjects/27Launcher/src/*.cpp")
 set(OLD_GLOB
-  "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp"
+  "E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp"
   "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp"
   "E:/rodgo/CodeProjects/27Launcher/src/main.cpp"
   "E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp"
@@ -58,7 +58,7 @@ endif()
 # SOURCE_FILES at CMakeLists.txt:35 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "E:/rodgo/CodeProjects/27Launcher/src/*.h")
 set(OLD_GLOB
-  "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h"
+  "E:/rodgo/CodeProjects/27Launcher/src/downloader.h"
   "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h"
   "E:/rodgo/CodeProjects/27Launcher/src/main.h"
   "E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.h"

@@ -339,9 +339,9 @@
 	"HEADERS" : 
 	[
 		[
-			"E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h",
+			"E:/rodgo/CodeProjects/27Launcher/src/downloader.h",
 			"MU",
-			"UVLADIE3JM/moc_downloadLatestZip.cpp",
+			"UVLADIE3JM/moc_downloader.cpp",
 			null
 		],
 		[
@@ -371,7 +371,6 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_NEEDS_QMAIN",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
 		"WIN32",
@@ -441,11 +440,7 @@
 	"SETTINGS_FILE" : "E:/rodgo/CodeProjects/27Launcher/build/CMakeFiles/27Launcher_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp",
-			"MU",
-			null
-		],
+		[ "E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp", "MU", null ],
 		[ "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp", "MU", null ],
 		[ "E:/rodgo/CodeProjects/27Launcher/src/main.cpp", "MU", null ],
 		[

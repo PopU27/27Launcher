@@ -16,7 +16,6 @@ set(CMAKE_TARGET_DEFINITIONS_RC
   "MINGW_HAS_SECURE_API=1"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
-  "QT_NEEDS_QMAIN"
   "QT_WIDGETS_LIB"
   "UNICODE"
   "WIN32"
@@ -47,7 +46,7 @@ set(CMAKE_RC_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/rodgo/CodeProjects/27Launcher/build/27Launcher_autogen/mocs_compilation.cpp" "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj.d"
-  "E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp" "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj.d"
+  "E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp" "CMakeFiles/27Launcher.dir/src/downloader.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/downloader.cpp.obj.d"
   "E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp" "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj.d"
   "E:/rodgo/CodeProjects/27Launcher/src/main.cpp" "CMakeFiles/27Launcher.dir/src/main.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/main.cpp.obj.d"
   "E:/rodgo/CodeProjects/27Launcher/src/slidingStackedWidget.cpp" "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj" "gcc" "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj.d"

@@ -1,5 +1,5 @@
 #include "main.h"
-#include "downloadLatestZip.h"
+#include "downloader.h"
 #include "getAppDataPath.h"
 #include "SlidingStackedWidget.h"
 
@@ -10,9 +10,19 @@ using namespace Qt;
 const string appDataPath = getAppDataPath() + "\\PopU27\\27Launcher\\";
 
 // Updates the launcher
-void updateLauncher(string url, function<void(size_t, size_t)> progressCallback)
+int updateLauncher(string url, function<void(size_t, size_t)> progressCallback)
 {
-    
+    cout << "Updating app..." << endl;
+    try
+    {
+        downloadAppUpdate(url, appDataPath + "\\downloads", progressCallback);
+        return 0;
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+        return 1;
+    }
 }
 
 // Downloads .zip file from url and saves to the dir
@@ -62,6 +72,7 @@ void setUpWidget(QWidget *widget, QLayout *layout, float width = 150, float heig
 int main(int argc, char *argv[])
 {
     const string joatApiUrl = "https://api.github.com/repos/PopU27/Jack-of-All-Trades/contents/Builds/Windows/Latest";
+    const string launcherUpdateUrl = "https://github.com/PopU27/27Launcher/releases/latest/download/27LauncherSetup.exe";
 
     QApplication app(argc, argv);
 
@@ -91,6 +102,15 @@ int main(int argc, char *argv[])
 
     mainLayout->addWidget(stackedWidget);
 
+    // Set up updateProggressBar to be used everywhere
+    QWidget *updatePage = new QWidget(stackedWidget);
+    QVBoxLayout * updateLayout = new QVBoxLayout(updatePage);
+
+    QProgressBar *updateProgressBar = new QProgressBar(updatePage);
+    updateProgressBar->setRange(0, 100);
+    updateProgressBar->setValue(45);
+    setUpWidget(updateProgressBar, updateLayout, 500);
+
     // --- TITLE PAGE ---
     QWidget *titlePage = new QWidget();
     QVBoxLayout *titleLayout = new QVBoxLayout(titlePage);
@@ -101,6 +121,9 @@ int main(int argc, char *argv[])
     QPushButton *joatButton = new QPushButton("Jack of All Trades", titlePage);
     setUpWidget(joatButton, titleLayout);
 
+    QPushButton *update = new QPushButton("Update", titlePage);
+    setUpWidget(update, titleLayout);
+
     QPushButton *quit = new QPushButton("Quit", titlePage);
     setUpWidget(quit, titleLayout);
 
@@ -109,21 +132,51 @@ int main(int argc, char *argv[])
     stackedWidget->addWidget(titlePage);
     stackedWidget->setCurrentWidget(titlePage);
 
-    QObject::connect(quit, &QPushButton::clicked, &mainWindow, &QWidget::close);
-
     QObject::connect(joatButton, &QPushButton::clicked, [stackedWidget]() {
         stackedWidget->slideToWidget(2, SlidingStackedWidget::LeftToRight);
     });
 
-    // --- Update page ---
-    QWidget *updatePage = new QWidget(stackedWidget);
-    QVBoxLayout * updateLayout = new QVBoxLayout(updatePage);
+    QObject::connect(update, &QPushButton::clicked, [=]() {
+        update->setEnabled(false);
+        quit->setEnabled(false);
 
-    QProgressBar *updateProgressBar = new QProgressBar(updatePage);
-    updateProgressBar->setRange(0, 100);
-    updateProgressBar->setValue(45);
-    setUpWidget(updateProgressBar, updateLayout, 500);
+        updateProgressBar->setValue(0);
+        stackedWidget->slideToWidget(1, SlidingStackedWidget::LeftToRight);
 
+        QThreadPool::globalInstance()->start([=]() {
+            auto onProgressChange = [=](size_t downloaded, size_t total) {
+                int percentage = static_cast<int>((downloaded * 100) / total);
+
+                QMetaObject::invokeMethod(updateProgressBar, [=]() {
+                        updateProgressBar->setValue(percentage);
+                }, Qt::QueuedConnection);
+            };
+
+            int downloadResult = updateLauncher(launcherUpdateUrl, onProgressChange);
+
+            path targetPath = path(appDataPath) / "downloads" / "27LauncherSetup.exe";
+
+            if (downloadResult == 0 && exists(targetPath)) {
+                QThreadPool::globalInstance()->start([=]() {
+                    system(targetPath.string().c_str());
+                });
+            } else {
+                cerr << targetPath << " does not exist!" << endl;
+            }
+
+            QCoreApplication::quit();
+
+            QMetaObject::invokeMethod(update, [=]() {
+                stackedWidget->slideToWidget(0, SlidingStackedWidget::RightToLeft);
+                update->setEnabled(true);
+                quit->setEnabled(true);
+            }, QueuedConnection);
+        });
+    });
+
+    QObject::connect(quit, &QPushButton::clicked, &mainWindow, &QWidget::close);
+
+    // --- Update page --- STARTED ELSEWHERE, ADDED HERE
     stackedWidget->addWidget(updatePage);
 
     // --- Jack of All Trades page ---

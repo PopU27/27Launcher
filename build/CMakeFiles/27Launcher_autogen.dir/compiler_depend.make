@@ -664,8 +664,8 @@
   CMakeFiles/4.4.0-rc2/CMakeCXXCompiler.cmake \
   CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake \
   CMakeFiles/4.4.0-rc2/CMakeSystem.cmake \
-  E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp \
-  E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h \
+  E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp \
+  E:/rodgo/CodeProjects/27Launcher/src/downloader.h \
   E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp \
   E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.h \
   E:/rodgo/CodeProjects/27Launcher/src/main.cpp \
@@ -1408,8 +1408,6 @@ E:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h:
 
 E:/msys64/ucrt64/include/stdio.h:
 
-E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp:
-
 E:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_numeric_defs.h:
 
 E:/msys64/ucrt64/include/qt6/QtCore/qalloc.h:
@@ -1848,8 +1846,6 @@ E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake:
 
-E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.h:
-
 E:/msys64/ucrt64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
 E:/msys64/ucrt64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake:
@@ -2009,6 +2005,10 @@ E:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/mm_malloc.h:
 CMakeFiles/4.4.0-rc2/CMakeCXXCompiler.cmake:
 
 CMakeFiles/4.4.0-rc2/CMakeRCCompiler.cmake:
+
+E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp:
+
+E:/rodgo/CodeProjects/27Launcher/src/downloader.h:
 
 E:/rodgo/CodeProjects/27Launcher/src/getAppDataPath.cpp:
 

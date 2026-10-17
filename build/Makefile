@@ -330,29 +330,29 @@ resources.rc.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/resources.rc.obj
 .PHONY : resources.rc.obj
 
-src/downloadLatestZip.obj: src/downloadLatestZip.cpp.obj
-.PHONY : src/downloadLatestZip.obj
+src/downloader.obj: src/downloader.cpp.obj
+.PHONY : src/downloader.obj
 
 # target to build an object file
-src/downloadLatestZip.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj
-.PHONY : src/downloadLatestZip.cpp.obj
+src/downloader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloader.cpp.obj
+.PHONY : src/downloader.cpp.obj
 
-src/downloadLatestZip.i: src/downloadLatestZip.cpp.i
-.PHONY : src/downloadLatestZip.i
+src/downloader.i: src/downloader.cpp.i
+.PHONY : src/downloader.i
 
 # target to preprocess a source file
-src/downloadLatestZip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.i
-.PHONY : src/downloadLatestZip.cpp.i
+src/downloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloader.cpp.i
+.PHONY : src/downloader.cpp.i
 
-src/downloadLatestZip.s: src/downloadLatestZip.cpp.s
-.PHONY : src/downloadLatestZip.s
+src/downloader.s: src/downloader.cpp.s
+.PHONY : src/downloader.s
 
 # target to generate assembly for a file
-src/downloadLatestZip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.s
-.PHONY : src/downloadLatestZip.cpp.s
+src/downloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\27Launcher.dir\build.make CMakeFiles/27Launcher.dir/src/downloader.cpp.s
+.PHONY : src/downloader.cpp.s
 
 src/getAppDataPath.obj: src/getAppDataPath.cpp.obj
 .PHONY : src/getAppDataPath.obj
@@ -453,9 +453,9 @@ help:
 	@echo ... 27Launcher_autogen/mocs_compilation.i
 	@echo ... 27Launcher_autogen/mocs_compilation.s
 	@echo ... resources.obj
-	@echo ... src/downloadLatestZip.obj
-	@echo ... src/downloadLatestZip.i
-	@echo ... src/downloadLatestZip.s
+	@echo ... src/downloader.obj
+	@echo ... src/downloader.i
+	@echo ... src/downloader.s
 	@echo ... src/getAppDataPath.obj
 	@echo ... src/getAppDataPath.i
 	@echo ... src/getAppDataPath.s

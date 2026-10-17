@@ -91,20 +91,20 @@ CMakeFiles/27Launcher.dir/resources.rc.obj: E:/rodgo/CodeProjects/27Launcher/res
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building RC object CMakeFiles/27Launcher.dir/resources.rc.obj"
 	E:\msys64\ucrt64\bin\windres.exe -O coff $(RC_DEFINES) $(RC_INCLUDES) $(RC_FLAGS) E:\rodgo\CodeProjects\27Launcher\resources.rc CMakeFiles\27Launcher.dir\resources.rc.obj
 
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/downloadLatestZip.cpp
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj -MF CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\downloadLatestZip.cpp
+CMakeFiles/27Launcher.dir/src/downloader.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
+CMakeFiles/27Launcher.dir/src/downloader.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
+CMakeFiles/27Launcher.dir/src/downloader.cpp.obj: E:/rodgo/CodeProjects/27Launcher/src/downloader.cpp
+CMakeFiles/27Launcher.dir/src/downloader.cpp.obj: CMakeFiles/27Launcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\rodgo\CodeProjects\27Launcher\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/27Launcher.dir/src/downloader.cpp.obj"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/27Launcher.dir/src/downloader.cpp.obj -MF CMakeFiles\27Launcher.dir\src\downloader.cpp.obj.d -o CMakeFiles\27Launcher.dir\src\downloader.cpp.obj -c E:\rodgo\CodeProjects\27Launcher\src\downloader.cpp
 
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.i"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\rodgo\CodeProjects\27Launcher\src\downloadLatestZip.cpp > CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.i
+CMakeFiles/27Launcher.dir/src/downloader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/27Launcher.dir/src/downloader.cpp.i"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\rodgo\CodeProjects\27Launcher\src\downloader.cpp > CMakeFiles\27Launcher.dir\src\downloader.cpp.i
 
-CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.s"
-	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\downloadLatestZip.cpp -o CMakeFiles\27Launcher.dir\src\downloadLatestZip.cpp.s
+CMakeFiles/27Launcher.dir/src/downloader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/27Launcher.dir/src/downloader.cpp.s"
+	e:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\rodgo\CodeProjects\27Launcher\src\downloader.cpp -o CMakeFiles\27Launcher.dir\src\downloader.cpp.s
 
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: CMakeFiles/27Launcher.dir/flags.make
 CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj: CMakeFiles/27Launcher.dir/includes_CXX.rsp
@@ -155,7 +155,7 @@ CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s: cmake_force
 27Launcher_OBJECTS = \
 "CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/27Launcher.dir/resources.rc.obj" \
-"CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj" \
+"CMakeFiles/27Launcher.dir/src/downloader.cpp.obj" \
 "CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj" \
 "CMakeFiles/27Launcher.dir/src/main.cpp.obj" \
 "CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj"
@@ -165,7 +165,7 @@ CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s: cmake_force
 
 27Launcher.exe: CMakeFiles/27Launcher.dir/27Launcher_autogen/mocs_compilation.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/resources.rc.obj
-27Launcher.exe: CMakeFiles/27Launcher.dir/src/downloadLatestZip.cpp.obj
+27Launcher.exe: CMakeFiles/27Launcher.dir/src/downloader.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/src/getAppDataPath.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/src/main.cpp.obj
 27Launcher.exe: CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.obj
@@ -176,7 +176,6 @@ CMakeFiles/27Launcher.dir/src/slidingStackedWidget.cpp.s: cmake_force
 27Launcher.exe: 11Zip/libelzip.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libQt6Gui.dll.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libQt6Core.dll.a
-27Launcher.exe: E:/msys64/ucrt64/lib/libQt6EntryPoint.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libcurl.dll.a
 27Launcher.exe: 11Zip/extlibs/minizip/libminizip.a
 27Launcher.exe: E:/msys64/ucrt64/lib/libz.dll.a
