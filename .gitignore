@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+
+# Builds and deps
+build/
+11Zip/

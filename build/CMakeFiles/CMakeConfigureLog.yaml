@@ -11195,3 +11195,579 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ce8f2/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ce8f2.dir\\build.make CMakeFiles/cmTC_ce8f2.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ce8f2.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_ce8f2.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_ce8f2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ce8f2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ce8f2.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ce8f2.dir/objects.a @CMakeFiles\\cmTC_ce8f2.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_ce8f2.dir/objects.a -Wl,--no-whole-archive -o cmTC_ce8f2.exe -Wl,--out-implib,libcmTC_ce8f2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ce8f2.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f8b1b/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f8b1b.dir\\build.make CMakeFiles/cmTC_f8b1b.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_f8b1b.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_f8b1b.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_f8b1b.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_f8b1b.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_f8b1b.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_f8b1b.dir/objects.a @CMakeFiles\\cmTC_f8b1b.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_f8b1b.dir/objects.a -Wl,--no-whole-archive -o cmTC_f8b1b.exe -Wl,--out-implib,libcmTC_f8b1b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_f8b1b.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3ad17/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3ad17.dir\\build.make CMakeFiles/cmTC_3ad17.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3ad17.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_3ad17.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_3ad17.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3ad17.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3ad17.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3ad17.dir/objects.a @CMakeFiles\\cmTC_3ad17.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_3ad17.dir/objects.a -Wl,--no-whole-archive -o cmTC_3ad17.exe -Wl,--out-implib,libcmTC_3ad17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3ad17.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e83fa/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e83fa.dir\\build.make CMakeFiles/cmTC_e83fa.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e83fa.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_e83fa.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_e83fa.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e83fa.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e83fa.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e83fa.dir/objects.a @CMakeFiles\\cmTC_e83fa.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_e83fa.dir/objects.a -Wl,--no-whole-archive -o cmTC_e83fa.exe -Wl,--out-implib,libcmTC_e83fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e83fa.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_9f3a5/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9f3a5.dir\\build.make CMakeFiles/cmTC_9f3a5.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_9f3a5.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_9f3a5.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_9f3a5.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9f3a5.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_9f3a5.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_9f3a5.dir/objects.a @CMakeFiles\\cmTC_9f3a5.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_9f3a5.dir/objects.a -Wl,--no-whole-archive -o cmTC_9f3a5.exe -Wl,--out-implib,libcmTC_9f3a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9f3a5.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_94d74/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_94d74.dir\\build.make CMakeFiles/cmTC_94d74.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_94d74.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_94d74.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_94d74.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_94d74.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_94d74.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_94d74.dir/objects.a @CMakeFiles\\cmTC_94d74.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_94d74.dir/objects.a -Wl,--no-whole-archive -o cmTC_94d74.exe -Wl,--out-implib,libcmTC_94d74.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_94d74.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_51f40/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_51f40.dir\\build.make CMakeFiles/cmTC_51f40.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_51f40.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_51f40.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_51f40.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_51f40.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_51f40.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_51f40.dir/objects.a @CMakeFiles\\cmTC_51f40.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_51f40.dir/objects.a -Wl,--no-whole-archive -o cmTC_51f40.exe -Wl,--out-implib,libcmTC_51f40.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_51f40.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ba695/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ba695.dir\\build.make CMakeFiles/cmTC_ba695.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ba695.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_ba695.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_ba695.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ba695.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ba695.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ba695.dir/objects.a @CMakeFiles\\cmTC_ba695.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_ba695.dir/objects.a -Wl,--no-whole-archive -o cmTC_ba695.exe -Wl,--out-implib,libcmTC_ba695.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ba695.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_b75aa/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b75aa.dir\\build.make CMakeFiles/cmTC_b75aa.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_b75aa.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_b75aa.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_b75aa.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_b75aa.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_b75aa.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_b75aa.dir/objects.a @CMakeFiles\\cmTC_b75aa.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_b75aa.dir/objects.a -Wl,--no-whole-archive -o cmTC_b75aa.exe -Wl,--out-implib,libcmTC_b75aa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_b75aa.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_4abc7/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_4abc7.dir\\build.make CMakeFiles/cmTC_4abc7.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_4abc7.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_4abc7.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_4abc7.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_4abc7.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_4abc7.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_4abc7.dir/objects.a @CMakeFiles\\cmTC_4abc7.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_4abc7.dir/objects.a -Wl,--no-whole-archive -o cmTC_4abc7.exe -Wl,--out-implib,libcmTC_4abc7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_4abc7.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6e13d/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6e13d.dir\\build.make CMakeFiles/cmTC_6e13d.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_6e13d.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_6e13d.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_6e13d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6e13d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6e13d.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6e13d.dir/objects.a @CMakeFiles\\cmTC_6e13d.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_6e13d.dir/objects.a -Wl,--no-whole-archive -o cmTC_6e13d.exe -Wl,--out-implib,libcmTC_6e13d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6e13d.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_ffd51/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ffd51.dir\\build.make CMakeFiles/cmTC_ffd51.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_ffd51.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_ffd51.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_ffd51.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ffd51.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ffd51.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_ffd51.dir/objects.a @CMakeFiles\\cmTC_ffd51.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_ffd51.dir/objects.a -Wl,--no-whole-archive -o cmTC_ffd51.exe -Wl,--out-implib,libcmTC_ffd51.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ffd51.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_e1713/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e1713.dir\\build.make CMakeFiles/cmTC_e1713.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_e1713.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_e1713.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_e1713.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_e1713.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_e1713.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_e1713.dir/objects.a @CMakeFiles\\cmTC_e1713.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_e1713.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1713.exe -Wl,--out-implib,libcmTC_e1713.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e1713.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_3931c/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3931c.dir\\build.make CMakeFiles/cmTC_3931c.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_3931c.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_3931c.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_3931c.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3931c.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3931c.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_3931c.dir/objects.a @CMakeFiles\\cmTC_3931c.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_3931c.dir/objects.a -Wl,--no-whole-archive -o cmTC_3931c.exe -Wl,--out-implib,libcmTC_3931c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3931c.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_6ee76/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6ee76.dir\\build.make CMakeFiles/cmTC_6ee76.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_6ee76.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_6ee76.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_6ee76.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6ee76.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6ee76.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_6ee76.dir/objects.a @CMakeFiles\\cmTC_6ee76.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_6ee76.dir/objects.a -Wl,--no-whole-archive -o cmTC_6ee76.exe -Wl,--out-implib,libcmTC_6ee76.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6ee76.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/_deps/cpr-src/include/CMakeLists.txt:64 (try_compile)"
+    directories:
+      source: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+      binary: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Wextra -Wpedantic -Werror"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-src/cmake"
+    buildResult:
+      variable: "STD_FS_SUPPORTED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 E:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1048e/fast
+        E:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1048e.dir\\build.make CMakeFiles/cmTC_1048e.dir/build
+        mingw32-make[1]: Entering directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_1048e.dir/std_fs_support_test.cpp.obj
+        e:\\msys64\\ucrt64\\bin\\g++.exe   -Wall -Wextra -Wpedantic -Werror  -std=c++20 -o CMakeFiles\\cmTC_1048e.dir\\std_fs_support_test.cpp.obj -c E:\\rodgo\\CodeProjects\\27Launcher\\build\\_deps\\cpr-src\\cmake\\std_fs_support_test.cpp
+        Linking CXX executable cmTC_1048e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1048e.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1048e.dir/objects.a
+        E:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_1048e.dir/objects.a @CMakeFiles\\cmTC_1048e.dir\\objects1.rsp
+        e:\\msys64\\ucrt64\\bin\\g++.exe  -Wall -Wextra -Wpedantic -Werror  -Wl,--whole-archive CMakeFiles\\cmTC_1048e.dir/objects.a -Wl,--no-whole-archive -o cmTC_1048e.exe -Wl,--out-implib,libcmTC_1048e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1048e.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'E:/rodgo/CodeProjects/27Launcher/build/_deps/cpr-build/include/std_fs/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...
