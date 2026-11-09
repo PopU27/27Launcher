@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\27Launcher.dir/objects.a
-E:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\27Launcher.dir/objects.a @CMakeFiles\27Launcher.dir\objects1.rsp
-e:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\27Launcher.dir/objects.a -Wl,--no-whole-archive -o 27Launcher.exe -Wl,--out-implib,lib27Launcher.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\27Launcher.dir\linkLibs.rsp
