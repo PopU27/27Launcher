@@ -1,5 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-11Zip/* linguist-vendored=true
-build/** linguist-vendored=true
-deploy/** linguist-vendored=true
+# commented out in case i decide to change it deploy/** linguist-vendored=true
